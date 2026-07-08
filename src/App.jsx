@@ -39,14 +39,14 @@ export default function App() {
                 ONE · Asistente Previsional
               </p>
               <p className="truncate text-xs text-gray-400">
-                Plataforma interactiva con <span className="text-diplo-celeste font-semibold">Inteligencia Artificial</span>
+                Sistema de <span className="text-diplo-celeste font-semibold">preguntas y respuestas</span> de la diplomatura
               </p>
             </div>
             <div className="flex flex-col items-end gap-1 flex-none">
               <div className="flex items-center gap-2">
                 <img src="/one-logoletra.webp" alt="ONE" className="h-5 w-auto object-contain opacity-90 brightness-0 invert" />
                 <span className="text-gray-400 text-xs italic font-medium">by</span>
-                <img src="/escencial-logoblanco.webp" alt="Escencial" className="h-8 w-auto object-contain opacity-100" />
+                <img src="/escencial-logoblanco.webp" alt="Escencial" className="h-10 w-auto object-contain opacity-100" />
               </div>
               <span className="text-gray-500 font-medium" style={{ fontSize: '8px', letterSpacing: '0.1em' }}>DIPLO PREVISIONAL</span>
             </div>
@@ -96,7 +96,7 @@ export default function App() {
             <RobotAvatar estado="greeting" size="80px" className="mb-4 drop-shadow-xl" />
             <h3 className="mb-2 text-xl font-bold text-white">¡Te damos la bienvenida!</h3>
             <p className="mb-6 text-sm text-gray-300 leading-relaxed">
-              Para sacarle el mayor provecho a este asistente inteligente y obtener respuestas precisas, te recomendamos leer primero nuestra guía rápida de uso.
+              Para sacarle el mayor provecho a este sistema de preguntas y respuestas, te recomendamos leer primero nuestra guía rápida de uso.
             </p>
             <button
               onClick={() => setTab('guia')}
