@@ -1,0 +1,134 @@
+[
+  {
+    "p": "¿Qué es el IPS y cuál es su norma básica?",
+    "variaciones": ["que es el ips", "de que se trata el ips", "que institucion es el ips", "cual es la ley base del ips", "que normativa regula el ips", "el ips de que provincia es", "cual es el marco normativo del ips", "que decreto ley rige el ips"],
+    "r": "El IPS es el Instituto de Previsión Social de la provincia de Buenos Aires, un órgano administrativo autárquico que agrupa a gran parte de los empleados públicos bonaerenses. Su norma básica es el Decreto Ley 9650/80, que vendría a ser el equivalente al que la Ley 24.241 representa para ANSES. La provincia de Buenos Aires no adhirió a la 24.241, por eso mantiene su propio régimen. Se recomienda leer el decreto ley completo porque casi todo está ahí.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Quiénes están comprendidos y quiénes excluidos del IPS?",
+    "variaciones": ["quienes aportan al ips", "que trabajadores estan dentro del ips", "el gobernador aporta al ips", "los docentes estan en el ips", "quienes quedan afuera del ips", "la policia aporta al ips", "el banco provincia esta en el ips", "que empleados publicos entran al ips"],
+    "r": "Están comprendidos gobernador, vicegobernador, cargos electivos, poder legislativo, municipalidades y docentes de instituciones públicas, sean trabajadores permanentes o temporarios, cualquiera sea la naturaleza del contrato. También los docentes de instituciones privadas no subvencionadas, afiliados a la Dirección General de Cultura y Educación. Quedan excluidos el personal de policía y el personal del Banco Provincia (ambos tienen su propio régimen previsional) y los vinculados por contrato de locación de obra. En IPS se habla de docentes de primaria, secundaria y terciaria; los universitarios son nacionales (ANSES).",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Cómo se define cuál es la caja otorgante cuando hay aportes en varias cajas?",
+    "variaciones": ["que es la caja otorgante", "como se sabe que caja paga la jubilacion", "que pasa si aporte en ips y anses", "quien otorga la jubilacion si tengo dos cajas", "como se elige la caja que jubila", "que es la reciprocidad jubilatoria", "si tengo aportes en dos cajas cual jubila", "que caja da el beneficio"],
+    "r": "En el sistema de reciprocidad la caja otorgante es la que acredita mayor cantidad de años de servicio con aporte, según el artículo 168 de la 24.241 y el propio Decreto Ley 9650. Por ejemplo, con 20 años en IPS y 10 en ANSES, la caja otorgante es IPS. Los aportes de las otras cajas se suman como si fueran de la misma caja, y para llevarlos hay que hacer un reconocimiento de servicios (RECO), no es automático. Si hay igualdad de años (por ejemplo 15 y 15), el afiliado puede optar por la caja. Excepción: en jubilaciones por incapacidad y pensiones por fallecimiento en actividad, la caja otorgante es la jurisdicción provincial donde estaba afiliado al momento de la incapacidad o el deceso, aunque tenga más años en otra caja.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Conviene siempre jubilarse por IPS antes que por ANSES?",
+    "variaciones": ["es mejor jubilarse por ips", "conviene el ips o el anses", "siempre es mejor cobrar por ips", "el cliente quiere jubilarse por ips le digo que si", "es verdad que ips paga mas", "que caja conviene mas ips o anses", "si tengo las dos cajas por cual me jubilo"],
+    "r": "Que siempre conviene IPS es un mito. Cada expediente es único y hay que hacer números según la historia laboral. La caja otorgante la determina quién tiene más años de servicio con aporte, no la preferencia del cliente. Además, hay que respetar lo que necesita el cliente (por ejemplo, si no quiere seguir trabajando), sin caer en el encarnizamiento de buscar el mejor haber a costa de lo que la persona realmente necesita. Se decide caso por caso.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Existe la moratoria en el IPS?",
+    "variaciones": ["hay moratoria en ips", "se puede comprar aportes en ips", "el ips acepta moratoria", "puedo pagar años faltantes en ips", "existe plan de pago de aportes en ips", "el ips toma moratorias como anses", "se pueden comprar años en ips"],
+    "r": "No, en IPS no hay moratoria. Los aportes tienen que ser fehacientes, efectivamente realizados. Es una diferencia importante respecto de ANSES.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué requisitos hay para la jubilación ordinaria por servicios comunes en IPS?",
+    "variaciones": ["requisitos jubilacion ordinaria ips", "cuantos anos necesito para jubilarme en ips", "que edad se necesita para la ordinaria de ips", "cuantos anos de aporte pide el ips", "a que edad se jubila por servicios comunes en ips", "que hace falta para la jubilacion comun de ips", "edad y aportes para jubilarse en ips"],
+    "r": "Para servicios comunes se requieren 60 años de edad (igual para hombre o mujer) y 35 años de servicios, de los cuales 22 deben ser con aportes efectivos, sea de provincia o nación. El trabajador debe encontrarse en actividad al momento del cese de cómputos. Los años de servicio sin aporte (becas, ad honorem, retenciones que no llegaban al mínimo) se acreditan con la certificación de servicios, que emite el empleador y computa esos períodos.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Cómo se determina el haber en el IPS y cómo se puede mejorar el porcentaje?",
+    "variaciones": ["como se calcula el haber en ips", "cuanto se cobra de jubilacion en ips", "como se determina el haber jubilatorio ips", "que porcentaje paga el ips", "como se mejora el porcentaje del haber ips", "cuando cobro 85 por ciento en ips", "como subo el porcentaje de mi jubilacion ips", "de que depende el haber en ips"],
+    "r": "El haber base es el 70% de la remuneración mensual del cargo del que era titular a la fecha de cese, o del cargo de mayor jerarquía que haya desempeñado (art. 41: mínimo 36 meses consecutivos o 60 alternados, todos con aporte). Sobre esa base (art. 40): si todos los aportes son en IPS, sube 5% (75%); con 3 años de exceso de edad, 75%; con 5 años de exceso de edad, 80%; y con exceso de edad más aportes puros en IPS puede llegar al 85%. A diferencia de ANSES, que promedia las últimas 120 remuneraciones, IPS toma un porcentaje del mejor cargo.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué diferencia hay entre cese definitivo y cierre de cómputos, y qué hago si el cliente no está trabajando?",
+    "variaciones": ["diferencia entre cese definitivo y cierre de computos", "que es el cese condicionado en ips", "que pasa si el cliente no esta en actividad", "el trabajador tiene que estar trabajando para jubilarse en ips", "que modalidad uso para iniciar el tramite ips", "que es cierre de computos", "como inicio tramite si no esta en actividad", "puede seguir trabajando mientras se jubila en ips"],
+    "r": "Hay dos modalidades. En el cese definitivo el trabajador deja de trabajar. En el cese condicionado o cierre de cómputos se hace el cálculo a esa fecha pero la persona puede seguir trabajando y cobrando su haber hasta que le otorguen el beneficio. En IPS el trabajador debe estar en actividad al momento del cese de cómputos: si no está trabajando, se lo puede dar de alta en el monotributo (conviene el promovido/social, más barato) para iniciar el trámite, y después darlo de baja. La actividad puede ser en otro régimen.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué es la simultaneidad y qué requisito tiene?",
+    "variaciones": ["que es la simultaneidad en ips", "como funciona el segundo cargo simultaneo", "que pasa si tengo dos cargos a la vez en ips", "como se computa un cargo simultaneo", "cuantos anos necesito para la simultaneidad", "que aporta el segundo cargo simultaneo", "limite del incremento por simultaneidad"],
+    "r": "Hay simultaneidad cuando la persona ejerce dos o más cargos en paralelo al cargo de mayor jerarquía. Primero se define en cuál cargo se reúnen los requisitos jubilatorios, y el otro se suma como simultaneidad. Para acceder, hay que haber desempeñado como mínimo 3 años de servicios efectivos con aporte en el cargo que determina el haber. El incremento que aporta el segundo cargo nunca es mayor al 70% ni menor al 4%.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Cómo se calcula la jubilación cuando el cliente tiene años en tareas docentes o insalubres más años comunes?",
+    "variaciones": ["como se hace el prorrateo en ips", "que es la tabla de prorrateo ips", "como combino anos docentes con comunes", "tengo 17 anos de docente cuantos comunes necesito", "a que edad me jubilo mezclando docencia y comunes", "como saber la edad de jubilacion con dos tipos de servicio", "que es extrana jurisdiccion en ips"],
+    "r": "Se usa la tabla de prorrateo de doble entrada de IPS (servicios docentes o insalubres más comunes), que ya trae tabulado sin tener que hacer cuentas. Por ejemplo: con 15 años como docente se necesitan 14 años en tareas comunes y se puede iniciar a los 54 años; con 17 años docentes se necesitan 8 comunes e ingresa a los 52 años, 4 meses y 24 días. Los años fuera de IPS con reciprocidad se llaman extraña jurisdicción. Conviene evaluar qué combinación le rinde mejor al cliente, ya que los puros en IPS arrancan con 5% arriba.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué requisitos tiene la jubilación por invalidez en IPS?",
+    "variaciones": ["requisitos jubilacion por invalidez ips", "que porcentaje de incapacidad pide el ips", "como es el tramite de invalidez en ips", "por donde pasa la junta medica en ips", "que caja otorga la jubilacion por invalidez", "que dice el articulo 32 de invalidez", "cuanto se cobra por invalidez en ips", "edad para jubilacion por invalidez ips"],
+    "r": "Se requiere una incapacidad laboral del 66% o más. Por el art. 29 se accede a cualquier edad y sin mínimo de años de servicio, debiendo estar aportando a IPS; la caja otorgante es IPS aunque tenga más años en otra caja. El art. 32 aplica cuando la persona está cesada: exige 10 años de servicio ininterrumpido con aportes, que la invalidez se produzca dentro de los 2 años del cese, que el cese sea incausado y que no haya ingresado a otro sistema jubilatorio. El trámite pasa por tres instancias que deben dictaminar el 66% mínimo: medicina ocupacional de la jurisdicción, reconocimientos médicos de la provincia y control médico del IPS. El haber es el 70% de la remuneración del cargo a la fecha de cese.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué requisitos tiene la jubilación por edad avanzada en IPS?",
+    "variaciones": ["requisitos edad avanzada ips", "a que edad es la jubilacion por edad avanzada en ips", "cuantos anos de aporte pide la edad avanzada ips", "como funciona la edad avanzada en ips", "puedo tener anos en anses para la edad avanzada ips", "para quien sirve la jubilacion por edad avanzada", "auxiliares de escuela edad avanzada"],
+    "r": "Se puede solicitar con 65 años de edad cumplidos y 10 años de servicio con aporte al IPS, debiendo contar con al menos 5 años de prestación durante los últimos 8 de actividad. Puede tener años en ANSES, pero no más de 10, y los servicios nacionales no deben superar a los provinciales. Sirve para resolver casos en que no se reúnen los años de aporte comunes; se da mucho, por ejemplo, en auxiliares de escuela.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué documentación y formularios se necesitan para los trámites de IPS?",
+    "variaciones": ["que formulario se usa en ips", "que documentacion pide el ips para jubilarse", "formulario 136 ips", "que papeles necesito para la jubilacion ips", "los tramites de ips son online", "que documentacion para pension en ips", "que pasa si me falta un papel en ips", "hay que subir las cuatro pantallas de anses en ips"],
+    "r": "Para jubilación ordinaria e invalidez se usa el formulario 136 (descargable de la página de IPS y se completa en PDF); para pensiones directas y derivadas, el 138. Se necesita DNI frente y dorso, constancia de CUIL, último recibo de sueldo, certificación de servicios original certificando los 36 meses consecutivos (o 60 alternados) del mejor cargo, y la constancia del acto administrativo de cese. Los trámites son online: se carga todo en PDF y conviene subir todo completo desde el inicio, porque si falta algo te enterás recién cuando el trámite vuelve rechazado. Cuando hay aportes de ANSES se suman las cuatro pantallas del SICAM; para tareas insalubres hay que adjuntar la resolución o acto administrativo que declara insalubre la actividad.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Los docentes se jubilan todos igual en IPS o hay diferencia entre frente de grado y otros?",
+    "variaciones": ["como se jubilan los docentes en ips", "que es docente frente de grado", "edad de jubilacion docente en ips", "la ley 13469 que hizo con los docentes", "los bibliotecarios se jubilan como docentes", "todos los docentes se jubilan a la misma edad en ips", "que docentes entran en el regimen especial ips"],
+    "r": "En el decreto ley figuran el docente frente de grado (50 años de edad y 25 de aportes) y otros docentes (55 y 30). Pero en 2006 la Ley 13.469 equiparó a todos los docentes como frente de grado, y quedó alcanzado el personal de escuela que está frente a alumnos (incluidos bibliotecarios, ayudantes de laboratorio, preceptores). Quedó afuera el personal que no está frente a alumnos, como el administrativo o de dirección. Igual siempre se pregunta y se revisa el recibo de sueldo y la certificación de servicios.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿El IPS tiene pensiones no contributivas, además de las jubilaciones comunes?",
+    "variaciones": ["pensiones no contributivas ips", "pensiones sociales ips", "el ips da pensiones sin aportes", "pension por vejez sin aportes ips", "pensiones para madres solteras ips", "pensiones para discapacitados ips", "que pensiones sociales tiene el ips"],
+    "r": "Sí. Dentro de las prestaciones del IPS existen, además de las contributivas (jubilación ordinaria, invalidez, edad avanzada y pensión), pensiones sociales no contributivas por vejez, por invalidez, para madres solteras con hijos menores, para menores discapacitados y para menores desamparados. ⚠️ revisar: la clase no detalla requisitos ni montos de estas pensiones, solo las nombra; conviene profundizar en la página del IPS.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "Si hay cónyuge, conviviente e hijos al mismo tiempo, ¿cómo se reparte la pensión en IPS?",
+    "variaciones": ["concurrencia de pension conyuge conviviente", "pension para conyuge y conviviente a la vez", "como se reparte la pension entre conviviente e hijos", "concurrencia de beneficio de pension ips", "conyuge y conviviente cobran los dos la pension", "pension con hijos y conviviente juntos"],
+    "r": "El derecho a pensión busca cubrir el desequilibrio económico que deja el fallecimiento de un miembro económicamente activo de la familia. En el IPS, tanto el cónyuge como el conviviente tienen derecho a la pensión en partes iguales cuando concurren (surge del artículo 34 del decreto ley, con un fallo de la Corte bonaerense sobre el caso de convivientes). También existe la concurrencia del beneficio con hijos solteros, y otro esquema para el caso de hijos, nietos, viudos, hermanos, etc. ⚠️ revisar: la clase remite a un gráfico del material que no detalla los porcentajes exactos para cada combinación.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué formulario y documentación se necesita para tramitar una pensión en IPS?",
+    "variaciones": ["formulario pension ips", "que documentacion pido para una pension ips", "formulario 138 ips", "pension directa documentacion", "pension derivada documentacion", "papeles para pension por fallecimiento ips"],
+    "r": "Para las pensiones (directa y derivada) el formulario es el 138, a diferencia del 136 que se usa en jubilaciones, y también se descarga y completa desde la página del IPS. La documentación general incluye el DNI, el acta de defunción de la persona fallecida y la carta poder (opcional, si corresponde). Además hay documentación específica según el vínculo del beneficiario: para acreditar la calidad de cónyuge, para acreditar el vínculo de hijos (menores de 18, o mayores de 18 que estudian), y para hijos incapacitados. En el caso de beneficiarios extranjeros se pide la constancia correspondiente.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Existen jubilaciones especiales en IPS por ceguera, actividad artística o tareas insalubres?",
+    "variaciones": ["jubilacion por ceguera congenita ips", "jubilacion cuerpo de baile ips", "jubilacion actividades insalubres ips", "requisitos jubilacion insalubre ips", "jubilacion artistica ips", "edad y aportes para insalubridad ips"],
+    "r": "Sí, dentro de las prestaciones contributivas del IPS hay regímenes especiales: jubilación ordinaria por ceguera congénita (artículo 28), con 45 años de edad y 20 de aporte; jubilación del cuerpo artístico/cuerpo de baile (artículo 25), con 40 años de edad y 20 de aporte, pensada para actividades con envejecimiento prematuro; y las actividades insalubres (artículo 26), con 50 años de edad y 25 de aporte, típicas del personal de hospitales públicos de la provincia. Para el cuerpo de baile existe además una autorización especial de una comisión médica para poder seguir trabajando en otra actividad tras el cese, ya que no pueden volver a la misma tarea.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Qué significa 'extraña jurisdicción' y el principio de prestación única en IPS?",
+    "variaciones": ["que es extraña jurisdiccion ips", "principio de prestacion unica ips", "articulo 66 decreto ley ips", "se puede cobrar dos jubilaciones ips", "cajas profesionales ips", "reciprocidad y prestacion unica"],
+    "r": "'Extraña jurisdicción' es el término que usa IPS para referirse a cualquier régimen previsional que no sea el propio IPS (por ejemplo ANSES u otra caja), en el marco de la reciprocidad. El principio de prestación única (artículo 66 del decreto ley 9650) establece que los afiliados que se desempeñaron en distintos regímenes comprendidos en la reciprocidad jubilatoria solo pueden obtener una única prestación, considerando la totalidad de los servicios prestados, salvo en el caso de las cajas profesionales. Ante una caja profesional, la recomendación es tomar contacto directo con esa caja para conocer sus características particulares antes de asesorar.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Cómo es el circuito o los pasos para tramitar la jubilación por invalidez en IPS?",
+    "variaciones": ["pasos para jubilacion por invalidez ips", "circuito junta medica ips", "como se tramita la invalidez en ips", "control medico ips invalidez", "medicina preocupacional ips", "tres instancias medicas invalidez ips"],
+    "r": "El circuito es: el trabajador le comunica al empleador, el empleador solicita una junta médica a Medicina Preocupacional de la jurisdicción correspondiente, de ahí se eleva el expediente a Reconocimientos Médicos de la provincia de Buenos Aires y finalmente pasa a control médico del IPS. Deben cumplirse esas tres instancias, y las tres tienen que dictaminar una incapacidad mínima del 66%. Para la determinación de la incapacidad se toman en cuenta el cargo, la jerarquía de la persona, la capacidad de obtener ingresos y la situación de precariedad.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Cómo se acreditan años de servicio que no tuvieron aporte jubilatorio, por ejemplo becas o cargos ad honorem?",
+    "variaciones": ["años sin aporte como se cuentan ips", "certificacion de servicios para que sirve", "becas y ad honorem cuentan para jubilacion", "como completo los 35 años sin aporte", "servicios sin aporte ips", "certificacion de servicios ips que incluye"],
+    "r": "Para la jubilación ordinaria se exigen 35 años de servicio, de los cuales 22 deben ser con aportes efectivos. Puede haber empleados públicos con períodos sin aporte jubilatorio (becas, cargos ad honorem, o cargos donde no se llegó al mínimo legal retenido). Esos períodos se acreditan con la certificación de servicios, que emite el empleador, y computan los períodos sin aporte para completar los 35 años totales exigidos, aunque no cuenten como parte de los 22 años con aporte.",
+    "fuente": "Clase 31, Bonus IPS"
+  },
+  {
+    "p": "¿Alcanza con que el cliente diga que su tarea es insalubre para tramitarla como tal en IPS?",
+    "variaciones": ["basta con decir que es insalubre ips", "como se prueba que una tarea es insalubre", "resolucion de insalubridad ips", "acto administrativo insalubridad", "que documento prueba tarea insalubre", "codigo de insalubridad certificacion de servicios"],
+    "r": "No. No alcanza con que el cliente afirme que su actividad es insalubre. Es necesario contar con una resolución o acto administrativo, firmado por el gobernador, que declare formalmente que esa actividad es insalubre. Esa resolución respalda la certificación de servicios (que también consigna un código de insalubridad) y debe adjuntarse al expediente; de lo contrario el trámite puede ser rechazado por no acreditar la insalubridad.",
+    "fuente": "Clase 31, Bonus IPS"
+  }
+]

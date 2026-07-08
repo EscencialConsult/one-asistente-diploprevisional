@@ -1,0 +1,582 @@
+[
+  {
+    "p": "¿Cuáles son las prestaciones del SIPA que tengo que conocer?",
+    "variaciones": [
+      "que prestaciones tiene el sipa",
+      "cuales son los beneficios previsionales",
+      "que tipos de jubilaciones hay",
+      "prestaciones sipa",
+      "que beneficios da anses",
+      "pbu pc pap que son",
+      "cuales son las prestaciones basicas",
+      "que puedo tramitar en anses",
+      "edad minima de jubilacion",
+      "cual es la edad minima"
+    ],
+    "r": "Las prestaciones básicas son la Prestación Básica Universal (PBU), la Prestación Compensatoria (PC) y la Prestación Adicional por Permanencia (PAP). Para acceder a ellas se necesitan 30 años de aporte, y el haber se calcula con los últimos 120 meses aportados. Además están el Retiro Transitorio por Invalidez (RTI) —lo que la gente suele llamar \"jubilación por invalidez\", pero el término técnico es RTI—, la pensión por fallecimiento, las pensiones no contributivas (PNC) y el PUAM. Las terminologías son importantes en esta etapa.",
+    "fuente": "Clase 2, Módulo I"
+  },
+  {
+    "p": "¿Qué pasó con las AFJP y cómo llegamos al SIPA?",
+    "variaciones": [
+      "que paso con las afjp",
+      "que fueron las afjp",
+      "historia del sipa",
+      "cuando se estatizaron las jubilaciones",
+      "afjp",
+      "de donde salio el sipa",
+      "que ley elimino las afjp",
+      "jubilacion privada que paso",
+      "capitalizacion previsional"
+    ],
+    "r": "La ley 24.241 (1994) creó las AFJP, administradoras privadas de fondos de jubilaciones y pensiones con capitalización individual o colectiva; empezaron a funcionar alrededor de 1995-96. Muchas no lograban pagar el haber garantizado, quebraban o eran absorbidas, y ante la crisis de 2008 se decidió eliminar el sistema de capitalización. La ley 26.425 (2008) unificó todo en el SIPA: pasaron al Estado los pasivos, los fondos y las inversiones que administraban las AFJP. Quienes habían optado por renta vitalicia previsional siguen cobrando a través de las compañías de seguros de retiro.",
+    "fuente": "Clase 2, Módulo I"
+  },
+  {
+    "p": "¿Qué es el PUAM y qué requisitos tiene?",
+    "variaciones": [
+      "que es el puam",
+      "pension universal adulto mayor",
+      "requisitos puam",
+      "jubilacion a los 65 sin aportes",
+      "no tengo aportes que cobro",
+      "puam edad",
+      "que cobra el que no tiene aportes",
+      "beneficio para mayores sin jubilacion"
+    ],
+    "r": "El PUAM (Pensión Universal para el Adulto Mayor) fue creado por la ley 27.260, junto con el programa de reparación histórica. Es un beneficio equivalente al 80% del haber mínimo, para personas de 65 años, sin distinción de sexo. Si a esa edad la persona no tiene ningún otro beneficio, puede acceder al PUAM, y ese trámite lo puede gestionar el asesor.",
+    "fuente": "Clase 2, Módulo I"
+  },
+  {
+    "p": "¿Qué es la Prestación Compensatoria y con qué es incompatible?",
+    "variaciones": [
+      "que es la prestacion compensatoria",
+      "que es la pc",
+      "prestacion compensatoria incompatibilidad",
+      "aportes antes del 94",
+      "articulo 23 ley 24241",
+      "se puede cobrar pc y retiro por invalidez",
+      "que pasa con los aportes viejos",
+      "prestacion compensatoria con que choca"
+    ],
+    "r": "Está regulada en el artículo 23 de la ley 24.241. La tienen quienes cumplen los requisitos de la PBU y acreditan servicios con aportes anteriores a la vigencia de la ley (antes de 1994); se calcula multiplicando esos años por un índice. Su incompatibilidad clave: no se puede percibir junto con un retiro por invalidez, sea del régimen que sea (nacional, provincial o municipal). Por eso, al iniciar el trámite se firma una declaración jurada donde se declara que no se perciben retiros por invalidez ni otros beneficios de cajas no adheridas al SIPA.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "¿Cuáles son los requisitos de edad y aportes para la PBU (jubilación general)?",
+    "variaciones": [
+      "cuantos años necesito para jubilarme",
+      "a que edad me jubilo",
+      "requisitos para jubilarse",
+      "cuantos años de aportes piden",
+      "edad jubilatoria",
+      "que necesito para jubilarme",
+      "anos de aporte para la jubilacion",
+      "a que edad se jubila la mujer y el hombre",
+      "requisitos pbu",
+      "edad minima de jubilacion",
+      "edad minima jubilatoria",
+      "cual es la edad minima"
+    ],
+    "r": "Según el artículo 19 de la ley 24.241: hombres 65 años, mujeres 60 años, y en ambos casos acreditar 30 años de servicios computables en uno o más regímenes de reciprocidad. Edad y cantidad de aportes son los dos requisitos ineludibles.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "¿Qué diferencia hay entre años de servicio y años de aporte?",
+    "variaciones": [
+      "diferencia entre anos de servicio y de aporte",
+      "que son los anos de servicio",
+      "anos de aporte vs anos de servicio",
+      "es lo mismo servicio que aporte",
+      "que cuenta como servicio",
+      "anos de aporte que significa",
+      "diferencia servicio aporte jubilacion"
+    ],
+    "r": "Los años de aporte son los efectivamente pagados por la persona. Los años de servicio son un concepto más amplio: contemplan los años de aporte más ciertos beneficios que se computan como servicio para acceder a la jubilación, por ejemplo el reconocimiento por hijos o el exceso de edad. La ley que enmarca esto es la 24.241.",
+    "fuente": "Clase 1, Módulo I"
+  },
+  {
+    "p": "Mi empleadora cumplió 60 años y le dijeron que se tiene que jubilar. ¿Está obligada?",
+    "variaciones": [
+      "la mujer esta obligada a jubilarse a los 60",
+      "me pueden obligar a jubilarme",
+      "cumpli 60 me tengo que jubilar",
+      "puedo seguir trabajando despues de los 60",
+      "el empleador me puede intimar a jubilarme",
+      "reserva de continuar trabajando",
+      "obligacion de jubilarse mujer",
+      "me pueden echar por tener la edad jubilatoria"
+    ],
+    "r": "No. El artículo 19 permite a las mujeres optar por continuar su actividad hasta los 65 años. Si hace la reserva de continuar, el empleador no la puede intimar aunque tenga los 30 años de aporte, y puede retirarse en cualquier momento entre los 60 y los 65. Si no hizo la reserva y ya reúne edad y aportes, el empleador puede intimarla: primera intimación con plazo, segunda con plazo, y la tercera es carta de despido sin causa.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "¿Qué es el excedente de edad y cómo ayuda a completar los años de aporte que faltan?",
+    "variaciones": [
+      "que es el excedente de edad",
+      "tengo mas edad me faltan aportes",
+      "compensar aportes con edad",
+      "el 2x1 de edad por aportes",
+      "articulo 19 excedente",
+      "me faltan años de aporte pero tengo mas edad",
+      "excedente de edad como funciona",
+      "canjear edad por aportes"
+    ],
+    "r": "El artículo 19 permite compensar la falta de servicios con el exceso de edad, en la proporción de 2 años de edad excedente por 1 año de servicio faltante. Por ejemplo, un hombre de 70 años (5 de excedente sobre los 65) obtiene 2 años y 6 meses a favor, así que solo necesita acreditar 27 años y 6 meses de aportes reales. Para pedirlo hay que consignar \"aplicación del artículo 19\" en el formulario de ANSES. Ojo: esos años se computan como períodos anteriores, no se superponen con los últimos años trabajados, y al calcular el haber puede haber diferencia.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "¿Cómo se computan las tareas de cuidado por hijos para sumar años de aporte?",
+    "variaciones": [
+      "reconocimiento por hijos",
+      "cuantos años suman los hijos para jubilarme",
+      "tareas de cuidado jubilacion",
+      "sumar aportes por hijos",
+      "aporte por hijo mujer",
+      "los hijos suman para la jubilacion",
+      "hijo con discapacidad cuanto suma",
+      "hijos adoptivos aportes",
+      "auh suma años de aporte"
+    ],
+    "r": "Cada hijo propio equivale a un año; si además se percibieron asignaciones o AUH por ese hijo, equivale a dos años. Cada hijo adoptivo equivale a dos años (con asignaciones, tres). Cada hijo con discapacidad equivale a dos años (con AUH, tres). Cuentan también los hijos fallecidos, presentando acta de nacimiento y de defunción. En el formulario se carga \"tareas de cuidado\" con la cantidad de hijos y el sistema hace el cómputo. Por normativa el reconocimiento por hijos es para las mujeres, por el rol de tareas de cuidado.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "¿Cuáles son los requisitos del régimen especial de trabajador agrario?",
+    "variaciones": [
+      "requisitos jubilacion trabajador rural",
+      "regimen agrario jubilacion",
+      "a que edad se jubila un trabajador del campo",
+      "jubilacion peon rural",
+      "trabajador agrario requisitos",
+      "me jubilo antes por trabajar en el campo",
+      "regimen especial rural",
+      "jubilacion trabajo agropecuario"
+    ],
+    "r": "Para el régimen de trabajador agrario se piden 57 años de edad, sin distinción de sexo, y 25 años de servicios con aporte como trabajador agrario en relación de dependencia. Es solo para relación de dependencia en ámbito rural: si la persona trabaja en el campo pero es monotributista o autónomo, no entra en el régimen especial y va al general. Además, no toda actividad en un ámbito agropecuario está alcanzada; hay que revisar el convenio.",
+    "fuente": "Clase 1, Módulo I"
+  },
+  {
+    "p": "El personal de casas particulares (servicio doméstico), ¿tiene régimen especial o diferencial?",
+    "variaciones": [
+      "servicio domestico tiene regimen especial",
+      "jubilacion empleada domestica",
+      "casas particulares regimen",
+      "personal de casas particulares jubilacion",
+      "la empleada de casa se jubila diferente",
+      "regimen domestico previsional",
+      "ley 26844 casas particulares",
+      "trabajadora de casa particular jubilacion"
+    ],
+    "r": "No. El personal de casas particulares (lo que antes se llamaba servicio doméstico) no es un régimen especial ni diferencial: es un régimen común con características especiales. No se rige por la Ley de Contrato de Trabajo sino por una ley propia, la 26.844. En la diplomatura se le dedica una clase bonus que abarca la parte laboral y previsional.",
+    "fuente": "Clase 1, Módulo I"
+  },
+  {
+    "p": "¿Qué requisitos pide la jubilación para un trabajador con discapacidad (minusvalía)?",
+    "variaciones": [
+      "requisitos jubilacion por discapacidad",
+      "a que edad se jubila una persona con discapacidad",
+      "jubilacion trabajador discapacitado",
+      "regimen diferencial discapacidad",
+      "me jubilo antes por discapacidad",
+      "discapacidad y jubilacion requisitos",
+      "que porcentaje de discapacidad para jubilarme",
+      "jubilacion minusvalia"
+    ],
+    "r": "Es un régimen diferencial, para quien tiene una discapacidad pero puede trabajar con ella. En relación de dependencia se piden 45 años de edad; para autónomos, 50 años; en ambos casos con 20 años de aporte. Además, los últimos 10 años anteriores al cese o a la solicitud la persona tiene que haber estado dentro del sistema de discapacidad. Se necesita una incapacidad acreditada del 33%.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "Si me faltan aportes para llegar a los 30 años, ¿cómo los puedo completar?",
+    "variaciones": [
+      "me faltan aportes para jubilarme",
+      "como completo los 30 años de aporte",
+      "no llego a los 30 años que hago",
+      "me faltan años que puedo hacer",
+      "como sumar aportes faltantes",
+      "formas de completar aportes",
+      "me faltan aportes soluciones",
+      "comprar aportes para jubilarme"
+    ],
+    "r": "De varias formas: con aportes autónomos o de monotributo que la persona tenga, compensando con el excedente de edad (artículo 19, el 2x1), o a través de moratorias vigentes. Qué mecanismo usar depende de cuántos años falten y de qué períodos se puedan completar. Siempre se privilegia la relación de dependencia comprobable por sobre la compra de aportes. Las moratorias solo sirven para completar los años faltantes, no para superar los 30 ya reunidos.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "¿Qué es la moratoria de la ley 24.476 y por qué conviene revisarla siempre?",
+    "variaciones": [
+      "que es la moratoria 24476",
+      "moratoria previsional barata",
+      "comprar aportes viejos moratoria",
+      "moratoria ley 24476",
+      "que periodos cubre la moratoria",
+      "como comprar aportes con moratoria",
+      "moratoria valores historicos",
+      "plan para comprar aportes anteriores al 93"
+    ],
+    "r": "Es una moratoria previsional vigente que permite comprar aportes para complementar los que la persona ya tiene. Su gran ventaja es que maneja valores históricos: por ejemplo, 15 años pueden salir alrededor de $4.776. Cubre períodos desde 1973 hasta septiembre de 1993, computados desde el mes posterior a que la persona cumplió 18 años, siempre que en esos períodos no tuviera relación de dependencia. Se paga de contado o en cuotas, pero debe estar cancelada al presentar el beneficio. Tiene verificación socioeconómica.",
+    "fuente": "Clase 3, Módulo I"
+  },
+  {
+    "p": "La moratoria 27.705, ¿sigue vigente y para qué sirve?",
+    "variaciones": [
+      "la moratoria 27705 sigue vigente",
+      "moratoria 27705",
+      "plan de pago de deuda previsional",
+      "puedo comprar aportes estando en actividad",
+      "moratoria nueva sigue",
+      "moratoria para trabajadores activos",
+      "desde que edad puedo hacer la moratoria 27705",
+      "plan de aportes en cuotas antes de jubilarme"
+    ],
+    "r": "Sí, en parte. La parte que permitía a quien ya tenía la edad comprar aportes y cancelar un plan caducó porque no se prorrogó. Pero sigue vigente el plan de pago de deuda previsional para trabajadores en actividad: permite comprar los años que faltan en cuotas, con la condición de pagarlo y cancelarlo por completo antes de cumplir la edad jubilatoria (se cierra el día anterior a cumplir la edad). La mujer puede acceder desde los 50 y el hombre desde los 55. Requisito clave: estar en actividad. Tiene evaluación socioeconómica.",
+    "fuente": "Clase 3, Módulo I"
+  },
+  {
+    "p": "Si tengo monotributo y no pago la parte de obra social o el componente previsional, ¿me perjudica?",
+    "variaciones": [
+      "monotributo no pague obra social",
+      "que pasa si no pago el monotributo completo",
+      "componentes del monotributo",
+      "no pague la parte previsional del monotributo",
+      "me perjudica no pagar obra social monotributo",
+      "deuda de monotributo jubilacion",
+      "monotributo impositivo obra social previsional",
+      "pague solo lo impositivo del monotributo"
+    ],
+    "r": "El monotributo tiene tres componentes: el impositivo, el de obra social y el que va a ANSES para acreditar años de servicio. Si no te diste de alta en una obra social y no la usás, no pasa nada; pero si tenés una asignada y no ingresan los fondos, se genera una deuda que la obra social puede ejecutar. Con el componente previsional, si tenés el monotributo integrado y no lo pagás (o pagás solo lo impositivo), se genera una deuda que acumula intereses diarios. La deuda de obra social no aparece al jubilarte; la de seguridad social sí.",
+    "fuente": "Clase 3, Módulo I"
+  },
+  {
+    "p": "¿Desde qué edad se computan los aportes y de qué formas me incorporo al SIPA?",
+    "variaciones": [
+      "desde que edad cuentan los aportes",
+      "a que edad empiezo a aportar",
+      "formas de aportar al sipa",
+      "desde los 18 se cuentan los aportes",
+      "puedo tener varios trabajos y aportar",
+      "como me incorporo al sistema previsional",
+      "aportes desde que edad",
+      "aporto por varios empleos a la vez"
+    ],
+    "r": "Los aportes se computan desde los 18 años. La incorporación puede ser obligatoria (desde el alta laboral en relación de dependencia, con las retenciones de ley), voluntaria (por el pago del monotributo, aportando a seguridad social y obra social) o simultánea (podés tener varios empleos en relación de dependencia y a la vez ser autónomo o monotributista). No hay tope de cantidad de trabajos: los aportes se hacen por cada uno y no se pueden unificar en una sola boleta.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "El fondo de desempleo, ¿me sirve para la jubilación?",
+    "variaciones": [
+      "el fondo de desempleo sirve para jubilarme",
+      "cobre desempleo cuenta para la jubilacion",
+      "fondo de desempleo jubilacion",
+      "el desempleo suma aportes",
+      "estuve desempleado cuenta para jubilarme",
+      "seguro de desempleo previsional",
+      "el desempleo baja el haber",
+      "periodos de desempleo jubilacion"
+    ],
+    "r": "Los períodos en que la persona gozó del fondo de desempleo se computan como tiempo de aportes, es decir, sirven para justificar años de trabajo, pero no como remuneración. Esto importa porque el haber se calcula con los últimos 120 meses aportados: si dentro de esos 120 meses hay, por ejemplo, 24 de fondo de desempleo, esos meses no tienen remuneración y bajan el cálculo del haber.",
+    "fuente": "Clase 2, Módulo I"
+  },
+  {
+    "p": "¿Cuánto tiempo tengo para tramitar el fondo de desempleo y qué documentación pide ANSES?",
+    "variaciones": [
+      "cuanto tiempo tengo para pedir el fondo de desempleo",
+      "me despidieron que documentacion necesito",
+      "plazo para tramitar el desempleo",
+      "papeles para el fondo de desempleo",
+      "como tramito el seguro de desempleo",
+      "que necesito para cobrar desempleo",
+      "me echaron cuanto tiempo tengo para el fondo",
+      "documentacion desempleo anses"
+    ],
+    "r": "Desde el despido hay seis meses para iniciar el trámite, que hoy se hace de forma virtual ante ANSES. En un despido directo se necesita el telegrama laboral de desvinculación (que diga que fue despedido, no que renunció), fotocopia del DNI y las partidas de nacimiento de los hijos si los tuviera, para percibir también el salario familiar. Aclaración: por normativa de 2024 hoy no se está otorgando fondo de desempleo, pero igual se estudia porque vamos a trabajar con personas que lo percibieron en algún momento de sus últimos 30 años de trabajo.",
+    "fuente": "Clase 2, Módulo I"
+  },
+  {
+    "p": "¿Cuántos aportes se necesitan para el Retiro Transitorio por Invalidez (RTI)?",
+    "variaciones": [
+      "cuantos aportes necesito para el rti",
+      "requisitos retiro por invalidez",
+      "jubilacion por invalidez aportes",
+      "rti aportante regular e irregular",
+      "que aportes piden para invalidez",
+      "retiro transitorio por invalidez requisitos",
+      "me puedo retirar por invalidez cuantos aportes",
+      "aportes para jubilarme por enfermedad"
+    ],
+    "r": "El RTI no depende de la edad sino de estar en actividad (relación de dependencia, autónomo o monotributista) y tener aportes. Aportante regular: 30 meses de aporte dentro de los últimos 36. Aportante irregular: al menos 18 meses (aunque no consecutivos) dentro de esos 36, o al menos 12 dentro de los últimos 60. El aportante irregular puede solicitarlo, aunque generalmente será una RTI mínima. A diferencia de una pensión no contributiva, el RTI exige ser aportante y da derecho de transmisión al cónyuge.",
+    "fuente": "Clase 4, Módulo I"
+  },
+  {
+    "p": "¿Qué porcentaje de incapacidad se necesita y en qué se diferencia la jubilación por discapacidad del retiro por invalidez?",
+    "variaciones": [
+      "que porcentaje de incapacidad necesito",
+      "diferencia jubilacion por discapacidad y retiro por invalidez",
+      "cuanto porcentaje para el retiro por invalidez",
+      "invalidez vs discapacidad jubilacion",
+      "porcentaje de incapacidad laboral",
+      "necesito 66 por ciento de invalidez",
+      "que es mejor invalidez o discapacidad",
+      "junta medica porcentaje"
+    ],
+    "r": "La jubilación por discapacidad requiere una incapacidad acreditada del 33%. El retiro por invalidez exige un piso del 66% de incapacidad laboral (física o intelectual). La diferencia de fondo es que la jubilación cierra el ciclo laboral, mientras que el retiro puede dejar abierta la reinserción del trabajador. El porcentaje lo define la Junta Médica.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "¿Qué tiene que llevar el cliente a la Junta Médica?",
+    "variaciones": [
+      "que llevar a la junta medica",
+      "documentacion para la junta medica",
+      "que papeles pide la junta medica",
+      "estudios para la junta medica anses",
+      "que necesito para la junta medica",
+      "no puedo ir a la junta medica que hago",
+      "certificados para junta medica invalidez",
+      "que presento en la junta medica"
+    ],
+    "r": "Todos los formularios del trámite más la constancia médica con las patologías: certificado médico o epicrisis (historia clínica con las enfermedades que se invocan), todos los estudios que tenga y el listado de medicamentos que consume, porque muchas veces el medicamento es determinante respecto de la enfermedad. Si la junta pide estudios y el cliente tiene obra social, sale con las órdenes para hacerlos. Si no puede presentarse, el apoderado debe ir con una nota justificando la ausencia y pidiendo nuevo turno (con copia del poder de ANSES y DNI), porque faltar puede ser definitivo para el otorgamiento.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "Un familiar falleció hace años y nunca se hizo la pensión. ¿Todavía se puede iniciar? ¿Desde cuándo pagan el retroactivo?",
+    "variaciones": [
+      "se murio mi papa jubilado hace anos puedo hacer la pension",
+      "pension por fallecimiento vieja se puede iniciar",
+      "falleció hace tiempo todavia puedo pedir la pension",
+      "cuanto retroactivo pagan de la pension",
+      "prescribe la pension por fallecimiento",
+      "nunca hicimos la pension se puede",
+      "papa fallecido pension atrasada",
+      "desde cuando pagan la pension por muerte"
+    ],
+    "r": "Sí. La pensión por fallecimiento, de un trabajador en actividad o de un jubilado, se puede iniciar sin importar el tiempo transcurrido: el acceso al derecho no prescribe. Ahora bien, el retroactivo máximo que reconocen es de un año (12 meses), salvo que el trámite se haya iniciado dentro del año del fallecimiento. Es decir, aunque hayan pasado varios años, al iniciarlo solo reconocen 12 meses hacia atrás.",
+    "fuente": "Clase 3, Módulo I"
+  },
+  {
+    "p": "¿Cómo se reparten los porcentajes de una pensión por fallecimiento?",
+    "variaciones": [
+      "como se reparte la pension por fallecimiento",
+      "cuanto le toca a cada uno de la pension",
+      "porcentajes pension por muerte",
+      "cuanto cobra la viuda y los hijos",
+      "reparto de la pension entre familiares",
+      "que porcentaje cobra el conyuge",
+      "como se divide la pension",
+      "cuanto le corresponde a cada hijo de la pension"
+    ],
+    "r": "Primero se determina cuánto le correspondía cobrar a la persona fallecida y sobre esa base se calcula la distribución: 70% para el cónyuge o conviviente si no hay hijos con derecho; 50% para el cónyuge o conviviente si existen hijos con derecho; y 20% para cada hijo si no hay cónyuge o conviviente. La suma de todos los beneficiarios no puede exceder el 100% de lo que cobraba el fallecido, y si alguno pierde el derecho se recalcula manteniendo las proporciones.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "¿El acrecentamiento de la pensión es automático cuando un hijo deja de cobrar?",
+    "variaciones": [
+      "que es el acrecentamiento de la pension",
+      "un hijo dejo de cobrar la pension me aumenta",
+      "acrecentamiento pension automatico",
+      "cuando un hijo cumple 18 cobro mas de la pension",
+      "como pido el acrecentamiento",
+      "me sube la pension si otro deja de cobrar",
+      "acrecentamiento pension por fallecimiento",
+      "cobro pension minima me falta acrecentamiento"
+    ],
+    "r": "No, no es automático: hay que solicitarlo y sacar turno. El acrecentamiento es el derecho de los demás beneficiarios a aumentar su porcentaje cuando otro deja de cobrar (por ejemplo un hijo que cumple 18 o que fallece). No es retroactivo: se otorga desde que se solicita, así que el período cobrado de menos hay que reclamarlo por otra vía. Es muy común encontrar personas que cobran una pensión mínima justamente porque nunca hicieron el acrecentamiento.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "Para probar la convivencia y tramitar la pensión cuando no hay unión registrada, ¿qué necesito?",
+    "variaciones": [
+      "como pruebo la convivencia para la pension",
+      "no estabamos casados como cobro la pension",
+      "convivencia pension por fallecimiento",
+      "que necesito para probar que convivia",
+      "eramos pareja no casados pension",
+      "informacion sumaria de convivencia",
+      "testigos para probar convivencia pension",
+      "cuantos años de convivencia piden para la pension"
+    ],
+    "r": "Se usa el formulario de información sumaria de convivencia, con dos testigos que declaran bajo juramento desde cuándo y cómo convivían, y se presenta con copia del DNI de los testigos. Además se lleva una constancia policial firmada por dos testigos (preferentemente distintos) sobre el período y la forma de convivencia. Hay que acreditar los últimos cinco años (se reduce a tres si hay hijos menores con el causante). Si la unión está registrada en el registro civil, alcanza con eso.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "Si al fallecer el jubilado quedó plata en la cuenta, ¿la cobra la familia?",
+    "variaciones": [
+      "quedo plata en la cuenta del jubilado fallecido",
+      "se murio y tenia plata en la cuenta la cobra la familia",
+      "que pasa con el dinero del jubilado que fallecio",
+      "puedo sacar la plata de la cuenta de mi papa fallecido",
+      "fondos en la cuenta del fallecido",
+      "el banco devuelve la plata a anses",
+      "plata del jubilado muerto sucesion",
+      "haberes no cobrados del fallecido"
+    ],
+    "r": "Hay que distinguir. Los haberes devengados y no percibidos (el sueldo que le acababan de depositar y no llegó a cobrar) el banco se los devuelve a ANSES. Los fondos que la persona tenía acumulados en la cuenta no los paga ni ANSES ni el banco: para percibirlos hay que iniciar la sucesión. Si la familia extrae ese dinero indebidamente, los bancos intiman la devolución y, al obtener la pensión, ANSES aplica un descuento por lo cobrado de más.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "¿Qué documentación le pido al cliente en la primera entrevista?",
+    "variaciones": [
+      "que documentacion pido en la primera entrevista",
+      "que papeles le pido al cliente",
+      "documentacion inicial del cliente",
+      "que necesito de la persona para arrancar el tramite",
+      "claves que le pido al cliente",
+      "que datos pido en la primera reunion",
+      "documentos para empezar el tramite jubilatorio",
+      "clave anses y arca primera entrevista"
+    ],
+    "r": "Lo fundamental son las dos claves: la clave de la seguridad social (Mi ANSES) y la clave fiscal de ARCA, porque hay datos que aparecen en ANSES y no impactan en ARCA (y viceversa), y siempre hay que analizar ambas. Además: el DNI (para ver si es argentino o extranjero y la fecha de nacimiento); si es mujer con hijos, las actas de nacimiento cuando no figuran acreditadas; y la certificación de servicios, sobre todo si los años en relación de dependencia no figuran en Mi ANSES.",
+    "fuente": "Clase 1, Módulo I"
+  },
+  {
+    "p": "¿Cuál es el formulario base para iniciar cualquier trámite previsional y qué permite pedir?",
+    "variaciones": [
+      "cual es el formulario para iniciar la jubilacion",
+      "formulario base tramite previsional",
+      "con que formulario pido la jubilacion",
+      "solicitud general anses",
+      "que formulario se usa para todos los tramites",
+      "formulario para pedir la pension y la jubilacion",
+      "que permite pedir la solicitud general",
+      "formulario inicial jubilacion"
+    ],
+    "r": "Es la solicitud general, que se usa para prácticamente todos los trámites (incluido casas particulares). Permite pedir la jubilación, la prestación por edad avanzada, la pensión por fallecimiento de jubilado, la pensión por fallecimiento de afiliado en actividad, el retiro transitorio por invalidez y la prestación por invalidez, además de reconocimientos de servicios. Se completa online en PDF y se imprime, para que la letra se entienda. En CUIL se pone el de la persona a jubilar; en caso de pensión, el de la persona fallecida.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "¿Qué diferencia hay entre descargar el historial laboral registrado y toda la historia laboral?",
+    "variaciones": [
+      "diferencia entre historial registrado y toda la historia laboral",
+      "que historia laboral descargo",
+      "historial laboral completo vs registrado",
+      "cual historia laboral conviene bajar",
+      "que trae la historia laboral completa",
+      "descargar historia laboral anses",
+      "historial registrado que muestra",
+      "toda la historia laboral que incluye"
+    ],
+    "r": "El historial registrado solo muestra la relación de dependencia acreditada, sin desempleo ni otros conceptos. Conviene descargar siempre toda la historia laboral, porque trae los períodos anteriores y posteriores al 94, autónomos, monotributo, monotributo social, aportes de casas particulares, fondo de desempleo, planes sociales y reconocimientos de servicio. Los períodos anteriores a 1994 aparecen con razón social, tipo de servicio y meses trabajados; los posteriores al 94 vienen mes a mes.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "¿Qué plazo tengo cuando ANSES me notifica algo en un procedimiento administrativo?",
+    "variaciones": [
+      "que plazo tengo cuando anses me notifica",
+      "cuantos dias tengo para responder a anses",
+      "plazos administrativos anses",
+      "me llego una notificacion de anses cuanto tiempo tengo",
+      "plazo para contestar a anses",
+      "domicilio digital anses",
+      "cuantos dias para subsanar un tramite",
+      "plazo notificacion procedimiento administrativo"
+    ],
+    "r": "Los plazos administrativos son de entre 7 y 10 días según cada caso, contados desde que llega la notificación. La recomendación práctica es decirle al cliente que tiene 5 días para avisarnos, así queda margen para subsanar el problema. Por eso el domicilio digital (un correo electrónico individual y único por persona) es clave: ahí llegan todas las notificaciones de ANSES.",
+    "fuente": "Clase 5, Módulo I"
+  },
+  {
+    "p": "Cuando ANSES me pide \"la liquidación de SICAM\", ¿qué es exactamente ese papel?",
+    "variaciones": [
+      "que es la liquidacion de sicam",
+      "anses me pide la liquidacion de sicam",
+      "formulario 558 que es",
+      "que papel es la liquidacion de sicam",
+      "sicam 558 a b c",
+      "que presento cuando piden sicam",
+      "liquidacion sicam formulario",
+      "que incluye la liquidacion de sicam"
+    ],
+    "r": "Es el formulario 558 A-B-C, que se imprime en su versión original (original y duplicado). Ese formulario se acompaña con la situación de revista y con el detalle de deuda, y ese conjunto es la liquidación de SICAM que hay que presentar al iniciar el trámite previsional. El detalle de cómo armarlo se ve en el módulo de SICAM.",
+    "fuente": "Clase 6, Módulo I"
+  },
+  {
+    "p": "¿Por qué a veces no puedo descargar la historia laboral desde Mi ANSES?",
+    "variaciones": [
+      "no puedo descargar la historia laboral",
+      "mi anses no me deja bajar la historia laboral",
+      "por que no anda mi anses",
+      "no me carga la historia laboral",
+      "mi anses lento no descarga",
+      "error al descargar historia laboral",
+      "la historia laboral trae datos de otra persona",
+      "cuando se actualiza mi anses"
+    ],
+    "r": "Entre aproximadamente el día 25 de cada mes y el 8 del mes siguiente, ANSES actualiza información y estados (pagos, formularios 941 acreditados en AFIP/ARCA, resoluciones de reconocimiento de servicios y de otorgamiento). En esos días el sistema puede estar lento, con demoras o fallos, e incluso traer datos de otra persona con datos similares. Conviene no quedarse con la primera descarga y chequear de nuevo pasados unos días. Como solución práctica, probá entrar en modo incógnito o desde otro dispositivo.",
+    "fuente": "Clase 3, Módulo I"
+  },
+  {
+    "p": "¿Cuánto es el haber mínimo jubilatorio?",
+    "variaciones": [
+      "cuanto es el haber minimo",
+      "cuanto cobra la jubilacion minima",
+      "haber minimo jubilatorio",
+      "cuanto es la minima de jubilacion",
+      "monto jubilacion minima",
+      "cuanto paga anses de minima",
+      "valor del haber minimo",
+      "cuanto es lo minimo que se cobra de jubilacion"
+    ],
+    "r": "Es un valor que se actualiza mes a mes por resolución de ANSES, así que no se memoriza: se consulta en las resoluciones publicadas (página de ANSES / Boletín Oficial). Como referencia mencionada en clase: el mínimo garantizado a partir de septiembre de 2025 era de $320.277,17 y para octubre de 2025 pasaba a $326.298. ⚠️ revisar: confirmar el valor vigente al momento de publicar, porque cambia todos los meses.",
+    "fuente": "Clase 6, Módulo I"
+  }
+  ,{
+    "p": "¿Cuál es la diferencia entre la jubilación por minusvalía y la pensión no contributiva por invalidez?",
+    "variaciones": [
+      "¿Es lo mismo jubilarse por discapacidad que cobrar la pensión no contributiva?",
+      "Tengo un cliente con certificado de discapacidad (CUD), ¿le pido la pensión asistencial o la jubilación?"
+    ],
+    "r": "La pensión no contributiva es de carácter asistencial, requiere una incapacidad laboral mayor al 80% que impide trabajar por completo y no es transmisible a herederos. En cambio, la jubilación por minusvalía (régimen diferencial) es para personas con discapacidad que sí pueden trabajar o autogestionarse. Exige menos edad y aportes (45 años de edad y 20 de aportes) y sí genera derecho a pensión para el conviviente o hijos en caso de fallecimiento.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Cuáles son los requisitos de jubilación especial para un trabajador con ceguera?",
+    "variaciones": [
+      "¿A qué edad se jubila una persona ciega?",
+      "¿Es igual si la ceguera es de nacimiento o si se quedó ciego de grande?"
+    ],
+    "r": "Las personas con ceguera se pueden jubilar dentro del régimen especial con 45 años de edad y 20 años de aportes. La diferencia clave radica en el origen: si la ceguera es congénita, solo deben acreditar esos años; si es adquirida (por accidente o enfermedad), la ceguera debe haberse declarado al menos 5 años antes del cese laboral o solicitud del beneficio.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Si me otorgan el Retiro por Invalidez (RTI), es para siempre o me vuelven a revisar?",
+    "variaciones": [
+      "¿Qué diferencia hay entre el retiro transitorio y el retiro definitivo por invalidez?",
+      "¿Me pueden quitar el retiro por invalidez después de un tiempo?"
+    ],
+    "r": "Al solicitarlo, la Junta Médica evalúa si la incapacidad (66% o más) tiene chances de recuperación con tratamiento. Si es así, se otorga un Retiro Transitorio (RTI) por un plazo máximo de 3 años, tras lo cual hay que volver a revisión. Si la junta determina que el cuadro es irreversible (ej. enfermedades neurológicas progresivas), se otorga directamente el Retiro Definitivo. Además, si durante la vigencia del RTI la persona cumple la edad jubilatoria ordinaria, este se transforma en jubilación definitiva automáticamente.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Qué documentación médica es indispensable llevar el día de la Junta Médica por RTI?",
+    "variaciones": [
+      "¿Me sirve llevar solo los certificados sueltos a la Junta Médica?",
+      "¿Qué pasa si ANSES no pide todos los estudios al iniciar el trámite?"
+    ],
+    "r": "Se debe llevar la epicrisis completa (historia clínica resumida del médico de cabecera), todos los estudios actualizados y, muy importante, el detalle exacto de la medicación habitual, ya que los médicos de la junta suelen preguntar esto para validar el diagnóstico. Si la junta evalúa que faltan estudios para acreditar el 66% de invalidez, ellos mismos emiten las órdenes complementarias en el momento.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Qué pasa si ya se está pagando la pensión a la viuda pero aparece una ex esposa o un hijo de otro matrimonio?",
+    "variaciones": [
+      "¿Se puede agregar a alguien a una pensión que ya está cobrando otro familiar?",
+      "¿Qué trámite hago si la ex cónyuge con cuota alimentaria quiere reclamar su parte de la pensión?"
+    ],
+    "r": "Se debe iniciar el trámite de 'Inclusión de nuevo solicitante en pensión existente'. Al acreditarse el vínculo del nuevo derechohabiente, ANSES recalcula los porcentajes y redistribuye el monto total (que nunca supera el 100% del haber del causante) entre la viuda original y los nuevos beneficiarios, manteniendo las proporciones que marca la ley.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Es automático el aumento de la pensión cuando mis hijos cumplen 18 años y dejan de cobrar su parte?",
+    "variaciones": [
+      "¿Cómo hago para cobrar el 100% de la pensión cuando mis hijos son mayores?",
+      "Mi hijo cumplió 18 y dejé de cobrar su parte, ¿ANSES me lo pasa a mí solo?"
+    ],
+    "r": "No, no es automático. Cuando el hijo menor cumple 18 años y pierde el derecho a la pensión, el porcentaje que percibía queda disponible. El titular conviviente/viudo debe solicitar expresamente en ANSES el trámite de 'Acrecentamiento de pensión' para que se le sume ese porcentaje. No es retroactivo, por lo que rige recién desde la fecha en que se pide.",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  },
+  {
+    "p": "¿Se pueden utilizar aportes realizados en otros países para jubilarse en Argentina?",
+    "variaciones": [
+      "Mi cliente trabajó en Brasil y Perú, ¿puedo sumar esos aportes acá?",
+      "¿Cómo funciona la jubilación para extranjeros radicados en el país?"
+    ],
+    "r": "Sí, gracias a los convenios internacionales (bilaterales y multilaterales) de Seguridad Social suscritos por Argentina. Se debe iniciar el trámite de reconocimiento para que los fondos o años aportados en el exterior se trasladen y se computen, permitiendo alcanzar los requisitos exigidos por la ley argentina (o por la del país donde el afiliado decida residir y jubilarse).",
+    "fuente": "MÓDULO I - CLASE DE CONSULTA N°1"
+  }
+]

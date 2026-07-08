@@ -1,0 +1,110 @@
+[
+  {
+    "p": "¿Qué es el Veraz y qué significa estar en el Veraz?",
+    "variaciones": ["que es el veraz", "estar en el veraz que significa", "el veraz es un banco", "que es eso del veraz", "estoy en el veraz que quiere decir", "el veraz que viene a ser", "estar en veraz es malo", "que significa figurar en el veraz"],
+    "r": "El Veraz es una base de datos que reúne información sobre perfiles crediticios: un historial con tu comportamiento financiero. No es un banco, es una empresa privada (Equifax) que brinda informes. Estar en el Veraz no significa tener un Veraz negativo: podés figurar solo porque tenés una tarjeta o un préstamo que venís pagando bien. Tener un Veraz negativo sí implica que figurás como deudor o con incumplimiento en el pago, lo que te vuelve un perfil de mayor riesgo y te dificulta acceder a crédito.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Qué significan las situaciones del 1 al 6 en el informe?",
+    "variaciones": ["que quiere decir situacion 1 o 2", "las situaciones del veraz que significan", "que es estar en situacion 3", "situacion 1 2 3 4 5 6 que son", "como se clasifica al deudor", "que significa cada situacion crediticia", "que es situacion irrecuperable", "los niveles del 1 al 6 que indican"],
+    "r": "Son la clasificación del deudor. Situación 1: normal, cartera comercial, admite atraso de hasta 31 días. Situación 2: riesgo bajo o seguimiento especial, atraso entre 31 y 90 días desde el vencimiento. Situación 3: con problemas, riesgo medio, cartera de consumo, atraso de más de 90 y hasta 180 días. Situación 4: con alto riesgo de insolvencia, riesgo alto. Situación 5: irrecuperable (atrasos superiores a un año). Situación 6: con disposición técnica, deuda con una ex entidad, hay que aclarar la situación con la entidad que otorgó la financiación. La nomenclatura es la misma en el Banco Central y en el Veraz.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cómo puedo consultar si figuro en el Veraz o en el Banco Central?",
+    "variaciones": ["como saber si estoy en el veraz", "donde consulto si figuro como deudor", "como me fijo en el banco central", "donde reviso mi situacion crediticia", "como consulto el veraz gratis", "como veo si estoy en central de deudores", "donde miro mi informe crediticio", "como averiguo si estoy en veraz"],
+    "r": "Por internet en la página del Banco Central de la República Argentina, entrando a Central de Deudores e ingresando tu CUIL o CUIT: es gratis y te da la situación y datos básicos. También podés consultar en el Veraz (empresa Equifax), que da un informe mucho más detallado de 7 a 10 hojas. En ambos casos existe además la opción de llamar por teléfono a un conmutador que te va pidiendo datos (fecha de nacimiento, si tenés tarjetas, etc.). En el Veraz el acceso gratuito da un PIN para desplegar el reporte.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cada cuánto puedo pedir un informe gratis?",
+    "variaciones": ["cuantas veces al año pido informe gratis", "cada cuanto es gratis el veraz", "el informe gratuito con que frecuencia", "cuando puedo volver a pedir el informe sin pagar", "el acceso gratuito cada cuanto es", "cada cuanto puedo consultar el veraz gratis", "si pago puedo consultar mas seguido", "el gratuito es cada seis meses"],
+    "r": "El derecho de acceso es gratuito y solo puede ejercerse a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo o bien se pague. Por eso conviene guardar el PDF del informe cuando lo bajás, para no tener que volver a pedirlo antes de los seis meses. Si necesitás consultarlo con más frecuencia, existen opciones pagas, incluido un Veraz ilimitado que te deja consultar las veces que quieras durante los seis meses.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "Cancelé una deuda pero sigo figurando en el Veraz, ¿qué hago?",
+    "variaciones": ["pague y sigo en el veraz", "cancele la deuda pero aparezco igual", "como saco una deuda ya pagada del veraz", "pague el prestamo y sigo como deudor", "como actualizo una deuda cancelada", "el banco no aviso que pague que hago", "como informo que ya no debo", "sigo en el veraz aunque pague"],
+    "r": "Las deudas ya canceladas pueden seguir figurando hasta dos años si el acreedor no avisa del pago. Primero, vía administrativa: andá al organismo acreedor (por ejemplo tu oficial de cuentas del banco) y pedile que informe al Veraz la cancelación, y pedí siempre el libre deuda. Después ingresá vos mismo a la plataforma del Veraz, andá a Mis Gestiones, elegí Actualizar y adjuntá el libre deuda, el ticket de pago o el historial del crédito cancelado. Conviene hacer capturas de las apps de los bancos que muestran que estás al día.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cuál es la diferencia entre actualizar, rectificar y suprimir datos?",
+    "variaciones": ["actualizar o rectificar cual es la diferencia", "que es rectificar en el veraz", "cuando actualizo y cuando rectifico", "suprimir datos que significa", "que hago si la deuda no es mia", "como corrijo un dato erroneo del veraz", "actualizar rectificar suprimir cual uso", "que opcion elijo en mis gestiones"],
+    "r": "El artículo 16 de la ley 25.326 permite al titular actualizar, rectificar o suprimir sus datos cuando estén desactualizados, sean falsos, incompletos o erróneos. Actualizar se usa cuando la deuda ya fue cancelada y querés informarlo (adjuntás libre deuda o ticket de pago). Rectificar se usa cuando hay un error, por ejemplo una factura de telefonía mal imputada o una deuda que no es tuya (adjuntás la factura, los pagos o la prueba de que no te corresponde). Suprimir es eliminar información. Todo se hace desde Mis Gestiones en la plataforma.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿En cuánto tiempo tienen que responderme o corregir mis datos?",
+    "variaciones": ["cuanto tarda el veraz en responder", "en cuantos dias tienen que corregir", "plazo para rectificar los datos", "cuanto tiempo tienen para actualizar", "en cuanto me deben dar la informacion", "cuantos dias tiene el veraz para contestar", "plazo legal de respuesta del veraz", "que pasa si no responden a tiempo"],
+    "r": "Para el derecho de acceso, el responsable debe proporcionar la información dentro de los 10 días corridos de haber intimado fehacientemente. Para rectificar, suprimir o actualizar, el artículo 16 fija un plazo máximo de cinco días hábiles desde recibido el reclamo o advertido el error. Si no cumplen ese plazo, el interesado queda habilitado a promover la acción de protección de datos personales y de hábeas data. La clase menciona que hay resoluciones donde se aplicaron multas a bancos por informar deudas erróneas o inexistentes.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Qué es el derecho al olvido y a los cuántos años prescribe la deuda?",
+    "variaciones": ["que es el derecho al olvido", "cuando prescribe una deuda en el veraz", "a los cuantos años se borra la deuda", "derecho al olvido como funciona", "cuanto tiempo queda una deuda vieja", "prescripcion de deudas en el veraz", "a los cinco años se cae la deuda", "como saco una deuda antigua"],
+    "r": "El derecho al olvido está vinculado a la prescripción: el artículo 26 inciso 4 de la ley 25.326 dice que solo pueden archivarse los datos significativos para evaluar la solvencia durante los últimos cinco años, y ese plazo se reduce a dos años cuando el deudor cancela o extingue la obligación. Los cinco años se cuentan desde que la deuda se tornó exigible (desde que la persona entró en mora). Aunque no la hayas pagado, transcurridos los cinco años esa deuda deja de figurar en el Veraz, salvo determinadas situaciones que la ley contempla en las que no se da lugar al olvido. Ojo con las cuotas de vencimientos sucesivos, ahí hay que analizar bien cuándo cada una resultó exigible.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cómo se ejerce el derecho al olvido en la práctica?",
+    "variaciones": ["como pido la baja por prescripcion", "como hago para que borren la deuda vieja", "como ejerzo el derecho al olvido en veraz", "que gestion hago por prescripcion", "como saco una deuda prescripta", "donde pido la baja por los cinco años", "como tramito el derecho al olvido", "que adjunto para la baja por prescripcion"],
+    "r": "En la vía administrativa: ingresás al Veraz, iniciás sesión, vas a Mis Gestiones y seleccionás la opción de actualización de otros créditos registrados en el informe (el punto 5). Elegís el tipo de gestión (personal o de tercero), completás los datos, validás identidad y seleccionás Baja por prescripción. Adjuntás una nota donde expresás que solicitás ejercer el derecho al olvido en base a la ley nacional de datos personales por haber transcurrido los cinco años. En el material complementario hay un modelo de nota para esto.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Qué es el scoring y en qué se diferencia de las situaciones del 1 al 6?",
+    "variaciones": ["que es el scoring", "el scoring que significa", "como se calcula el score crediticio", "que diferencia hay entre scoring y situacion", "el puntaje del veraz que es", "que mide el scoring", "el score va de cuanto a cuanto", "es lo mismo scoring que situacion 1 al 6"],
+    "r": "El scoring es un sistema de puntuación que evalúa el riesgo crediticio o la capacidad de pago de una persona, con un puntaje numérico que va de 1 a 999. Un algoritmo valúa el historial financiero, el comportamiento de pago, la cantidad de productos financieros y demás, y genera ese número: cuanto más alto, menor riesgo y mejores condiciones; uno bajo puede llevar al rechazo o a condiciones más estrictas. Es distinto de la calificación del 1 al 6, que tiene que ver con niveles de riesgo por atraso. El scoring mide capacidad de pago; incluso alguien en situación 1 puede tener un scoring no muy alto por la cantidad de compromisos que tiene.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cómo se reclama cuando el Veraz no corrige, primero administrativo y después judicial?",
+    "variaciones": ["como reclamo si no me sacan del veraz", "que hago si el veraz no responde", "los pasos para reclamar en el veraz", "primero administrativo y despues judicial como es", "que es la via administrativa y la judicial", "donde denuncio si no corrigen mis datos", "como inicio el reclamo profesional", "que hago si agote la plataforma y nada"],
+    "r": "Primero se agota la vía administrativa: hablar con el banco o acreedor, ingresar a la plataforma del Veraz y pedir actualización, rectificación o quita adjuntando la documentación. Si no responden, se envía carta documento (o nota) al Veraz y también al Banco Central intimando a que quiten los datos, y se puede iniciar la denuncia por escrito ante la Dirección de Datos Personales y el servicio de conciliación COPREC (nacional), que cita a las partes a una audiencia (formulario en consumoprotegido.gob.ar). Recién agotada esa instancia se pasa a la vía judicial: acción de hábeas data con patrocinio de abogado y, opcionalmente, reclamo por daños y perjuicios por el daño moral. En el material complementario hay modelos de nota, carta documento y demanda.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cómo cobro por hacer la gestión de Veraz a un tercero?",
+    "variaciones": ["cuanto cobro por gestionar el veraz", "como facturo la gestion de veraz", "que se cobra por sacar a alguien del veraz", "cuanto vale hacer una consulta de veraz a un cliente", "como armo el precio del servicio de veraz", "que gastos le cargo al cliente", "cuanto sale el informe de terceros", "como cobro la interpretacion del informe"],
+    "r": "El servicio se cobra como un mix: honorarios más los gastos del informe. Los honorarios se referencian en jus, cuyo valor depende de la jurisdicción (en Santa Fe rondaba los 118.000 a 120.000 pesos por jus; en Formosa 22.800). Como referencia mencionada en clase: una consulta o interpretación del informe alrededor de un jus, una gestión de rectificación o baja entre dos y cinco jus, y una acción judicial unos 20 jus. Aparte va el gasto del informe: como gestor el Veraz de terceros costaba unos 9.400 a 16.000 pesos, que le facturás a la persona. Para pedir un Veraz de terceros no se requiere matrícula ni patrocinio, alcanza con pagar; el patrocinio letrado recién hace falta en la acción judicial. Lo que más se vende no es pedir el informe sino interpretarlo y hacer la actualización o rectificación. ⚠️ revisar: los valores en jus son de la fecha de la clase y se desactualizan.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Existen otras bases de datos además del Veraz?",
+    "variaciones": ["que otras bases hay ademas del veraz", "solo esta el veraz o hay mas", "que es nosis", "otras empresas de informes crediticios", "donde mas figura mi deuda", "que es riesgo online y fidelitas", "hay alternativas al veraz", "cuales son las otras plataformas de deudores"],
+    "r": "Sí. Además del Veraz existen otras bases de datos comerciales similares: Nosis (nosis.com), que reúne datos crediticios y financieros; Riesgo Online (riesgoonline.com), que elabora informes comerciales y de análisis crediticio; Fidelitas (fidelitas.com), dedicada a información legal, financiera y patrimonial de empresas para prevenir fraudes; y Seven o 7 (seven7.com), que refleja la conducta ante compromisos financieros mostrando deudas vigentes e históricas. El Veraz es el que más se usa. El Banco Central es el ente que almacena el historial y el Veraz le provee información.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "Una alumna contó el caso de una jubilada que apareció en el Veraz por la deuda de un terreno en Córdoba que nunca fue suyo, ¿qué se puede hacer en un caso así?",
+    "variaciones": ["deuda por un terreno que no es mio que hago", "aparece una deuda municipal de un terreno que nunca compre", "caso del terreno de cordoba veraz", "fraude de titularidad terreno veraz", "deuda municipal por un terreno heredado fraude", "que hacer si me venden un terreno que no es del vendedor y me aparece deuda", "terreno usurpado deuda municipal veraz"],
+    "r": "Es el caso de una docente jubilada que figuraba en el Veraz por una deuda de impuesto municipal de un terreno comprado por sus padres hace décadas y jamás ocupado; con el tiempo otra persona vendió ese mismo terreno a terceros que hoy lo habitan. La deuda sigue generándose porque el impuesto municipal se cobra todos los meses y el dominio sigue figurando a su nombre, por lo que en este caso no corresponde pedir la baja por prescripción (no es una deuda financiera con plazo de olvido, sino un impuesto que se sigue generando). Los pasos sugeridos: 1) averiguar en el registro de la propiedad a nombre de quién figura el dominio, empezando por la municipalidad; 2) pedir un informe de dominio o catastro, idealmente con un abogado matriculado en esa jurisdicción; 3) resolver definitivamente por vía judicial el cambio de titularidad, porque sacarla del Veraz por la vía administrativa no alcanza. ⚠️ revisar: la clase no cierra el caso, quedó como ejemplo en desarrollo.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Existen sanciones o multas a los bancos si informan datos negativos falsos o erróneos en el Veraz?",
+    "variaciones": ["hay multas a los bancos por errores en el veraz", "sancionan a los bancos si me informan mal en el veraz", "que pasa si el banco me pone en el veraz por error", "existen sanciones para las entidades que informan mal", "multas por informar datos falsos al veraz", "los bancos pueden ser multados por errores en informes crediticios", "hay antecedentes de sanciones a bancos por veraz"],
+    "r": "Sí. Existen resoluciones donde se sancionó y se aplicaron multas a bancos por incluir en Veraz informes negativos de personas cuando esos datos no eran reales. Esto se vincula con la obligación del responsable del banco de datos de rectificar, actualizar o suprimir la información en un plazo máximo de cinco días hábiles desde recibido el reclamo o advertido el error (artículo 16 de la Ley 25.326); si no cumple ese plazo, el titular puede iniciar la acción de protección de datos personales (hábeas data) prevista en la misma ley. ⚠️ revisar: no se dieron números ni casos concretos de estas multas en la clase.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Cuánto cuesta hoy pedir un informe de Veraz personal, de terceros o ilimitado?",
+    "variaciones": ["precio informe veraz", "cuanto sale pedir un veraz de terceros", "valor del veraz ilimitado", "cuanto cuesta el informe de veraz hoy", "tarifas de veraz personal y de terceros", "cuanto cobra veraz por el informe", "precios actuales de veraz"],
+    "r": "Según los valores mostrados en la clase, un informe de Veraz personal costaba $14.000, uno de terceros $16.000, y el plan Veraz ilimitado (consultas ilimitadas durante 6 meses) rondaba los $17.600. Conviene el plan ilimitado si se va a ofrecer la gestión de Veraz como servicio habitual, aunque el pago es por cuenta propia. ⚠️ revisar: la docente aclaró que estos valores podían estar desactualizados; conviene verificarlos siempre antes de armar un presupuesto.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "¿Qué es el COPREC y qué otro recurso hay antes de ir a la vía judicial?",
+    "variaciones": ["que es coprec", "conciliacion previa antes de ir a juicio por veraz", "hay mediacion antes de demandar al veraz", "que es consumo protegido punto gob", "servicio de conciliacion para reclamos de consumo", "coprec sirve para reclamos de veraz", "audiencia de conciliacion antes del juicio"],
+    "r": "Antes de pasar a la vía judicial existe el COPREC, un servicio nacional de conciliación previa en relaciones de consumo. Sirve para citar a las partes (por ejemplo, a un representante de la tarjeta de crédito o de Veraz) a una audiencia con conciliadores especializados, para intentar resolver el reclamo (por ejemplo, lograr que saquen a la persona de la base de datos de deudores) sin necesidad de ir directamente a juicio. Se accede a través de www.consumoprotegido.gob.ar, donde hay un formulario electrónico para iniciar el trámite y luego se ofrece la audiencia de conciliación. ⚠️ revisar: la sigla se menciona de forma coloquial en la clase; conviene verificar el nombre oficial exacto.",
+    "fuente": "Clase 32, Bonus Veraz"
+  },
+  {
+    "p": "Si ya cancelé la deuda, ¿el derecho al olvido se puede ejercer antes de los 5 años?",
+    "variaciones": ["cancele la deuda se acorta el plazo del derecho al olvido", "si pague la deuda antes de 5 anos sale del veraz", "plazo reducido derecho al olvido deuda cancelada", "a los cuantos anos sale del veraz si ya pague", "el derecho al olvido es siempre a los 5 anos", "se reduce el plazo de prescripcion si ya pague", "deuda cancelada sale antes del veraz"],
+    "r": "Sí. Según el artículo 26, inciso 4 de la Ley 25.326, solo se pueden archivar, registrar o ceder los datos significativos para evaluar la solvencia económico-financiera durante los últimos cinco años, pero ese plazo se reduce a dos años cuando el deudor cancela o extingue de otro modo la obligación, debiéndose hacer constar ese hecho. Es decir, si la deuda ya fue pagada, el plazo para que desaparezca de la base de datos es más corto (dos años) que si nunca se pagó (cinco años).",
+    "fuente": "Clase 32, Bonus Veraz"
+  }
+]

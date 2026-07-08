@@ -1,0 +1,25 @@
+{
+  "name": "chat-asistencia-diplo-previsional",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Chat asistencial para alumnos de la Diplomatura Previsional — Escencial / ONE",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "fuse.js": "^7.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "2.2.1",
+    "vite": "^5.4.0"
+  }
+}

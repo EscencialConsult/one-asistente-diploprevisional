@@ -1,0 +1,128 @@
+[
+  {
+    "p": "¿Qué tareas se consideran trabajo en casas particulares y qué ley lo regula?",
+    "variaciones": ["que se considera personal de casas particulares", "cuales son las tareas de casas particulares", "que hace un trabajador de casas particulares", "que ley rige el trabajo domestico", "cual es la ley de casas particulares", "que actividades entran en casas particulares", "que abarca el regimen de casas particulares"],
+    "r": "Se considera trabajo en casas particulares toda prestación de servicio o tarea de limpieza, mantenimiento u otras actividades típicas del hogar, la asistencia personal y acompañamiento, y el cuidado no terapéutico de personas enfermas o con discapacidad. El régimen está regulado por la Ley 26.844, que conviene leer una vez en detalle antes de tramitar la parte laboral o previsional.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Puedo anotar a un familiar como personal de casas particulares?",
+    "variaciones": ["puedo registrar a mi mama como empleada domestica", "se puede anotar a un hermano en casas particulares", "mi nieta cuida a la abuela la anoto como casas particulares", "los familiares entran en el regimen de casas particulares", "puedo poner a un pariente como personal de casas particulares", "se puede declarar a un hijo como trabajador de casas particulares", "el parentesco impide anotar en casas particulares"],
+    "r": "No. No están incluidas en el régimen personas emparentadas con el dueño de la casa como padre, madre, hijo, hermano, nieto u otras que las leyes o usos consideren con algún grado de parentesco o vínculo de convivencia no laboral con el empleador (art. 3 inc. B de la Ley 26.844). No sirve el argumento de que no es familiar de quien figura como empleador. Además, el formulario de solicitud pide un detalle de parentesco con carácter de declaración jurada, así que hay que ser muy cuidadoso.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Una enfermera o cuidador con título habilitante puede anotarse como casas particulares?",
+    "variaciones": ["puedo anotar a una enfermera como empleada domestica", "el cuidado terapeutico entra en casas particulares", "un kinesiologo que cuida en casa es casas particulares", "si tiene titulo habilitante entra en casas particulares", "asistente terapeutico se anota como casas particulares", "dar medicacion o tomar presion es casas particulares"],
+    "r": "No. Las personas que realizan cuidado y asistencia de enfermos o personas con discapacidad cuando la prestación es de carácter exclusivamente terapéutico, o cuando se exige un título habilitante (enfermera, kinesiólogo, asistente terapéutico), no corresponden al régimen de casas particulares. Incluso cuando el cuidador empieza a dar medicación o tomar la presión, aunque sea con un tensiómetro electrónico, ya excede el marco de la ley de casas particulares.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cuáles son los requisitos para que un trabajador de casas particulares se jubile?",
+    "variaciones": ["que edad se necesita para jubilar casas particulares", "cuantos años de aporte para jubilarse empleada domestica", "requisitos jubilatorios casas particulares", "es un regimen especial casas particulares", "casas particulares es relacion de dependencia", "que edad se jubila personal de casas particulares"],
+    "r": "Aplican los requisitos del régimen general: 60 años las mujeres, 65 los hombres, y 30 años de servicio con aportes. Personal de casas particulares es relación de dependencia, con la característica particular de que el importe de aportes y contribuciones es una suma fija según la cantidad de horas semanales. No es un régimen especial ni diferencial: es una jubilación ordinaria más, con características particulares, y generalmente se accede a la mínima.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cómo se calculan los aportes y contribuciones en casas particulares?",
+    "variaciones": ["como se aporta en casas particulares", "cuanto se aporta por empleada domestica", "los aportes de casas particulares son un porcentaje", "como varia el aporte segun las horas", "tramos de horas casas particulares", "cuanto era el aporte en enero 2025 casas particulares"],
+    "r": "El aporte y la contribución no son un porcentaje del salario sino una suma fija que varía según la cantidad de horas semanales trabajadas, con tres tramos: menos de 12 horas, entre 12 y 16 horas, y más de 16 horas. Como referencia de enero de 2025, la contribución del empleador para menos de 12 horas era 474,86; para entre 12 y 16 rondaba los 949; y para más de 16 unos 1.300 pesos. Son valores bajos, por eso quien solo tiene esta actividad suele acceder a la mínima. ⚠️ revisar: los montos son de enero 2025 y se actualizan.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cómo verifico los aportes de un trabajador de casas particulares?",
+    "variaciones": ["donde chequeo los aportes de casas particulares", "como controlo si tiene aportes la empleada domestica", "donde veo la historia laboral casas particulares", "como verifico aportes en anses y arca", "que hago si en anses no figuran los aportes", "de donde saco la sabana de aportes"],
+    "r": "Se cruzan varias fuentes: la sábana o historia laboral desde ANSES ingresando con la clave de la seguridad social del cliente, el recibo de sueldo o ticket de pago, la consulta en ARCA entrando a personal de casas particulares con el CUIL y la clave, y la revisión en SICAM en la parte de pagos. Si la persona dice que trabajó y en la sábana de ANSES no figura, se busca por esos otros lugares. Con cada importe se arma un papel de trabajo indicando en qué período trabajó menos de 12, entre 12 y 16 o más de 16 horas.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Hay que liquidar SICAM si casas particulares es relación de dependencia?",
+    "variaciones": ["se hace sicam para casas particulares", "por que liquidar sicam si es relacion de dependencia", "cuando es obligatorio liquidar sicam", "la carga en sicam es automatica o manual", "que codigo se usa en sicam para servicio domestico", "el sicam tiene que ir con deuda o sin deuda"],
+    "r": "Sí. Aunque casas particulares es relación de dependencia, siempre que se tramita un beneficio con aportes como autónomo, monotributista o personal de casas particulares hay que liquidar un SICAM. La carga de los pagos es manual porque ANSES y ARCA (SICAM) no se comunican entre sí, así que hay que traer los datos y cargarlos período por período según la situación de revista, usando el código 89 de servicio doméstico. Lo que se carga en la situación de revista debe coincidir con la sábana de aportes de ANSES, y el SICAM tiene que ir sin deuda al presentar el expediente.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué moratorias puede usar un trabajador de casas particulares y qué requisitos tienen?",
+    "variaciones": ["que moratoria aplica a casas particulares", "se puede comprar moratoria en casas particulares", "que periodos cubre la 24476", "requisitos de la moratoria barata", "que es la 27705 unidades de cancelacion anticipada", "hasta cuantas cuotas se puede pagar la moratoria"],
+    "r": "Aplican las moratorias vigentes. La 24.476 (la moratoria barata, permanente) permite regularizar períodos entre enero de 1955 y el 30 de septiembre de 1993, adhiriendo desde que la persona cumplió 18 años; requiere aprobar la evaluación socioeconómica y se cancela en un solo pago o hasta 60 cuotas ajustables por la movilidad. De la 27.705 sigue vigente la parte de unidades de cancelación anticipada de aportes (UPA): para mujeres entre 50 y 59 y varones entre 55 y 64, que no hayan alcanzado la edad jubilatoria y que estén en actividad al momento de adherir. En SICAM, si se adhirió a la 24.476 se liquida con esa ley; si no, con la 24.241 (de lo contrario da inconsistencia).",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "Si el trabajador tuvo varios empleadores, ¿cómo se carga y qué formularios van?",
+    "variaciones": ["como se liquida con dos empleadores casas particulares", "pluriempleo en casas particulares como se hace", "se suman los aportes de varios empleadores", "cuantos formularios 6292 van si hay varios empleadores", "con cinco casas distintas como cargo el sicam", "los aportes de cada empleador se suman o van separados"],
+    "r": "Cada empleador se carga de forma individual, no se suman los aportes. Es un pluriempleo en relación de dependencia: cada empleador emite su recibo, hace sus aportes y tiene su propio CUIL de dador de trabajo, y en SICAM se carga cada uno con sus períodos y su situación de revista. Va un formulario 6.292 (declaración jurada del solicitante) por cada empleador, y también una certificación del dador de trabajo (6.293) por cada uno. Nada obliga a completar hasta 16 horas: se vuelca tal cual trabajó para cada empleador.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué formularios y documentación necesito para iniciar el expediente de casas particulares?",
+    "variaciones": ["que papeles se presentan para jubilar casas particulares", "cuales son los formularios especificos de casas particulares", "para que sirve el 6293 y el 6294", "que hago si no tengo la certificacion del dador de trabajo", "que formularios lleva la carpeta de casas particulares", "documentacion para iniciar el tramite jubilatorio domestico"],
+    "r": "La documentación se divide en acreditación de datos personales (ADP) y formularios. En ADP van DNI y copia certificada (hoja A4, frente y dorso, centrada), actas de matrimonio o partidas según corresponda, verificando antes los vínculos familiares en la base de ANSES. Entre los formularios: carta poder, 618 (solicitud de prestación previsional), 6.284 (declaración de no cobrar otro beneficio en SIPA), nota de consentimiento, y los específicos de casas particulares: 6.292 (declaración jurada del solicitante, uno por empleador, firma certificada) y 6.293 (certificación del dador de trabajo, uno por empleador). Si no se tiene el 6.293, se usa el 6.294 (declaración jurada sobre documentación) más el telegrama enviado a cada empleador. Se sugiere llevar el 558 A, B y C.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cómo hago el seguimiento del trámite después de presentarlo?",
+    "variaciones": ["donde sigo el expediente de jubilacion", "como se sigue el tramite en anses", "cuanto tarda el resuelto favorable", "donde veo la fecha y lugar de cobro", "se puede ver el expediente escaneado en el sistema", "como consulto en que estado esta el expediente"],
+    "r": "Se ingresa a MiANSES, sección información personal, consulta de expediente, cargando el número de expediente; también está la opción del buzón. Ahí se ve una línea de tiempo que muestra si está en proceso o resuelto. Cuando el resuelto es favorable, en la sección cobros aparece la fecha y lugar de cobro y el recibo con los rubros y el retroactivo (aproximadamente a los 45 o 60 días). Por este canal no se accede al expediente escaneado: para verlo hay que pedir la copia en ANSES (en cómputos) con el titular o su apoderado, ya que no tiene consulta pública.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cuánto puedo cobrar de honorarios por tramitar la jubilación?",
+    "variaciones": ["cuanto se cobra por tramitar una jubilacion", "limite de honorarios previsionales", "que dice la ley 17040 sobre honorarios", "como calculo mis honorarios previsionales", "que se toma para el tope de honorarios", "cuanto puede cobrar un apoderado por la jubilacion"],
+    "r": "Según la Ley 17.040, abogados y procuradores de la matrícula no pueden percibir de los beneficiarios que representen honorarios que excedan el importe de dos meses de la prestación. Ese haber se toma como la suma de PBU, PC y PAP más el complemento al mínimo (el total del haber), que puede consultarse en el recibo desde la opción jubilado y pensionado. Conviene presentar al cliente un acuerdo de honorarios al tomar el trámite.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cuáles son las modalidades de prestación del personal de casas particulares?",
+    "variaciones": ["que modalidades de trabajo hay en casas particulares", "tipos de modalidad de prestacion en casas particulares", "con retiro o sin retiro como es la modalidad", "cuales son las formas de prestar servicio en casas particulares", "modalidades de trabajo domestico segun la ley", "hay distintas formas de trabajar en casas particulares", "que diferencia hay entre trabajar con retiro y sin retiro"],
+    "r": "Hay dos modalidades de prestación: los trabajadores que residen en el domicilio en el que prestan servicio, y los trabajadores que prestan tareas con retiro en uno o más domicilios.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué otras relaciones laborales quedan excluidas del régimen de casas particulares, además de los familiares?",
+    "variaciones": ["que otros casos no entran en casas particulares", "ademas de familiares que mas queda afuera del regimen", "el chofer de la familia es personal de casas particulares", "el personal de consorcio entra en casas particulares", "si una empresa contrata a alguien para limpieza es casas particulares", "quien mas queda excluido del regimen de casas particulares", "exclusiones del regimen de personal de casas particulares"],
+    "r": "También quedan excluidas del régimen: las personas contratadas por personas jurídicas (una SA, SRL o SAS) para tareas de limpieza o mantenimiento, que se rigen por el convenio de la actividad de esa empresa y no por el régimen de casas particulares; las personas contratadas únicamente para conducir vehículos particulares de la familia; y las personas que convivan en el alojamiento con el personal de casas particulares sin prestar un servicio de igual naturaleza, como el personal de consorcio.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "Si el empleador de casas particulares falleció y el empleo nunca estuvo registrado, ¿se pueden pagar los aportes retroactivamente?",
+    "variaciones": ["se puede regularizar un empleo en negro despues de que fallecio el empleador", "los herederos pueden pagar aportes atrasados de casas particulares", "como hago si la empleadora murio y no la tenia registrada", "se puede pagar aportes retroactivos de servicio domestico en negro", "conviene registrar hacia atras un empleo no registrado", "que hacer si el empleador fallecio y el empleo era en negro", "los hijos pueden pagar los aportes que no pago la madre fallecida"],
+    "r": "No se aconseja intentar registrar hacia atrás un empleo que estuvo en negro, porque implica multas y complicaciones (podría intentarse mediante la figura de sucesión indivisa de los herederos, pero es un terreno complejo que no conviene transitar). La alternativa recomendada es ir hacia adelante: que uno de los herederos se anote como nuevo empleador de la trabajadora a partir de ese momento y le compre los años faltantes mediante una moratoria (por ejemplo la 24.476), de modo que le queden esos aportes acreditados para cuando alcance la edad jubilatoria. ⚠️ revisar: surgió como debate entre colegas en la clase, sin cita de una norma puntual para el caso.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Puedo sacar un turno de ANSES en cualquier provincia para un cliente que vive en otra?",
+    "variaciones": ["se puede sacar turno en otra jurisdiccion de anses", "el turno tiene que ser en la provincia donde vive el cliente", "antes se podia sacar turno en cualquier udai y ahora no", "como saco un turno si el cliente vive en otra provincia", "el sistema me limita a la jurisdiccion del domicilio", "que hago si mi cliente es de otra provincia para el turno", "se puede elegir cualquier udai del pais para el turno"],
+    "r": "Ya no se puede sacar un turno en cualquier UDAI del país: el sistema deriva según la jurisdicción y solo permite elegir entre las UDAI de la jurisdicción que corresponde al domicilio del titular. Si el cliente vive en otra provincia, la solución es trabajar con un colega de esa jurisdicción, o sacar el turno usando los datos y la clave de la seguridad social de la persona para que el sistema lo asigne a su domicilio.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Puedo ver el expediente completo de ANSES o solo el estado del trámite?",
+    "variaciones": ["desde mi anses se puede ver el expediente completo", "como veo todo el expediente de anses no solo el estado", "hay forma de ver las resoluciones del expediente online", "el seguimiento del tramite muestra el expediente entero", "donde veo el expediente completo como en una causa judicial", "se puede ver el expediente escaneado de anses", "que portal muestra todo el expediente de anses"],
+    "r": "Desde Mi ANSES (consulta de expediente / Mi Buzón) solo se puede hacer el seguimiento del estado del trámite, mediante una línea de tiempo con las etapas por las que va pasando, pero no se puede ver el expediente en sí. Para ver el expediente completo existe un portal aparte al que hay que registrarse (se lo compara con el portal que se usa para consultar causas judiciales), y ahí sí se puede seguir el paso a paso y ver las resoluciones. ⚠️ revisar: el nombre exacto de ese portal no se precisa en la clase.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Cómo consigo una copia de un expediente de ANSES ya presentado si no tengo la documentación?",
+    "variaciones": ["como pido copia de un expediente viejo de anses", "el cliente no sabe que le hicieron y necesito la copia del expediente", "se puede pedir copia del expediente en anses", "donde se solicita la copia de un tramite ya presentado", "como recupero un expediente que presento otro profesional", "hay que ir personalmente a pedir la copia del expediente", "se puede pedir el expediente por mail a anses"],
+    "r": "Hay que solicitarla directamente en ANSES, en el área de cómputo o mesa de entrada, yendo el propio beneficiario o el profesional con un poder. ANSES escanea y guarda el expediente presentado, pero no tiene consulta pública por sistema, así que la copia se pide presencialmente; en la práctica la entregan impresa, por mail o hasta por WhatsApp en formato PDF.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué hago si el empleador no me quiere dar la certificación de servicios (6.293)?",
+    "variaciones": ["que pasa si el empleador no firma la certificacion de servicios", "como reemplazo el formulario 6293 si no lo tengo", "el empleador no quiere dar la certificacion que hago", "que formulario uso si no consigo el 6293", "como se envia el telegrama al empleador de casas particulares", "que pasa si no tengo la certificacion del dador de trabajo", "se puede iniciar el tramite sin la certificacion de servicios"],
+    "r": "Si no se cuenta con la certificación del dador de trabajo (formulario 6.293), hay que enviarle a cada empleador un telegrama solicitando que la entregue en el marco del régimen de personal de casas particulares, indicando el período trabajado. Junto con la copia de ese telegrama enviado se presenta el formulario 6.294 (declaración jurada sobre documentación) más la declaración jurada del futuro beneficiario, donde se detalla el período y la situación de revista (horas) de cada tramo trabajado, coincidiendo con lo pedido en el telegrama. Si más adelante llega la certificación del dador de trabajo y coincide con lo realmente trabajado, se usa esa certificación; si no coincide, se sostiene el telegrama junto con la declaración jurada.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué pasa si en SICAM liquido con la ley incorrecta al cargar una moratoria de casas particulares?",
+    "variaciones": ["que ley pongo en sicam si adhiri a la moratoria", "si liquido sicam con la ley que no corresponde que pasa", "24476 o 24241 cual va en sicam de casas particulares", "como se elige la ley aplicable en sicam", "si me equivoco de ley en sicam da error", "que ley corresponde si no adhiri a la moratoria en sicam", "inconsistencia en sicam por elegir mal la ley"],
+    "r": "Al liquidar el SICAM hay que fijarse en la ley aplicable: si la persona adhirió a la moratoria 24.476 hay que liquidar con esa ley; si no adhirió, corresponde liquidar con la ley 24.241. Si se liquida con la ley que no corresponde al caso, la liquidación del SICAM da inconsistencia.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  },
+  {
+    "p": "¿Qué herramientas puedo usar para hacer seguimiento de clientes que van a cumplir la edad jubilatoria?",
+    "variaciones": ["como armo una base de clientes que van a jubilarse", "que uso para llevar el seguimiento de futuros jubilados", "hay algun programa para avisos de edad jubilatoria", "como organizo los clientes que faltan para jubilarse", "se puede usar excel para el seguimiento previsional", "que software de gestion previsional existen", "como me armo alertas de cuando cumple edad el cliente"],
+    "r": "En la clase se menciona armar un Excel propio, vinculado a un Drive donde además se puede adjuntar documentación escaneada (recibos, etc.) y configurar alertas por mail o notificación en fechas determinadas. También se nombra Trello como herramienta gratuita para organizar un tablero por cliente, con avisos cuando hay que pedir o recibir documentación. Además se mencionan sistemas de gestión previsional \"enlatados\" para quien prefiera un software específico del rubro. ⚠️ revisar: los nombres de esos sistemas se mencionan de forma oral en la clase y su grafía exacta no está confirmada.",
+    "fuente": "Clase 22, Bonus Casas Particulares"
+  }
+]
