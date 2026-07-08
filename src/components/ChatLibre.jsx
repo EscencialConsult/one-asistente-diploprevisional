@@ -55,6 +55,7 @@ export default function ChatLibre() {
               tipear={m.tipear}
               fuente={m.fuente}
               primaryQuestion={m.primaryQuestion}
+              avatarPose={m.avatarPose}
               options={m.options}
               onElegirOpcion={sendMessage}
               onListo={() =>

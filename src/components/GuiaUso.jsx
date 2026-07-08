@@ -1,6 +1,10 @@
 import { InformationCircleIcon, CheckCircleIcon, XCircleIcon, HandThumbUpIcon, TrashIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
 
+// Versión de la plataforma: subila a mano en cada commit que suma contenido
+// o cambia el comportamiento del asistente (ver package.json para el mismo número).
+const APP_VERSION = '1.0.0';
+
 export default function GuiaUso({ hasReadGuide, onMarkAsRead }) {
   const [cleared, setCleared] = useState(false);
 
@@ -90,6 +94,10 @@ export default function GuiaUso({ hasReadGuide, onMarkAsRead }) {
           </div>
         </section>
       </div>
+
+      <p className="mt-8 text-center text-xs text-gray-500">
+        Versión {APP_VERSION}
+      </p>
 
       {!hasReadGuide && onMarkAsRead && (
         <div className="mt-8 flex justify-center animate-fade-up" style={{ animationDelay: '0.5s' }}>

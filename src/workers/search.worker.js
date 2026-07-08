@@ -178,6 +178,27 @@ self.addEventListener('message', (event) => {
     return;
   }
 
+  // Atajo de igualdad exacta: si la consulta (normalizada) coincide letra por
+  // letra con una pregunta o variación ya cargada, respondé directo sin pasar
+  // por Fuse ni por el chequeo de ambigüedad. Sin esto, una pregunta que ya
+  // está textual en el banco podía caer en SUGGESTIONS si otra pregunta
+  // parecida quedaba con un score muy cercano (bug reportado: "no lo toma
+  // aunque la pregunta ya estaba").
+  const queryExacta = rawNormalized.replace(/[¿?¡!.,]/g, '').trim();
+  if (queryExacta) {
+    const matchExacto = trainingData.find((item) => {
+      const pNorm = normalizar(item.primaryQuestion).replace(/[¿?¡!.,]/g, '').trim();
+      if (pNorm === queryExacta) return true;
+      return (item.variations || []).some(
+        (v) => normalizar(v).replace(/[¿?¡!.,]/g, '').trim() === queryExacta
+      );
+    });
+    if (matchExacto) {
+      self.postMessage({ action: 'EXACT_MATCH', payload: { ...matchExacto, score: 0 } });
+      return;
+    }
+  }
+
   const results = fuse.search(queryLimpia);
 
   const UMBRAL_EXACTO = 0.15;
@@ -205,9 +226,18 @@ self.addEventListener('message', (event) => {
   const best = topResults[0];
 
   if (best.score <= UMBRAL_EXACTO) {
-    // Loop 3: Lógica de desambiguación (Delta de Confianza)
+    // Loop 3: Lógica de desambiguación (Delta de Confianza).
+    // Solo es ambiguo si el SEGUNDO candidato también es de calidad "exacta"
+    // (no alcanza con estar cerca del primero en términos relativos: si el
+    // mejor match es prácticamente perfecto, ~0, hay que exigir que el
+    // segundo lo sea también, si no cualquier score bajo dispara SUGGESTIONS
+    // de forma injusta con preguntas que ya están textuales en el banco).
     const second = topResults[1];
-    if (second && (second.score - best.score) < MARGEN_AMBIGUEDAD) {
+    const empatados =
+      second &&
+      second.score <= UMBRAL_EXACTO &&
+      (second.score - best.score) < MARGEN_AMBIGUEDAD;
+    if (empatados) {
       // Los dos primeros resultados son estadísticamente idénticos. Es ambiguo.
       self.postMessage({
         action: 'SUGGESTIONS',

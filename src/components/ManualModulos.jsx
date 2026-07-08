@@ -14,6 +14,10 @@ const normalizar = (s) =>
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '');
 
+// Pool de poses del sprite del bot para respuestas exitosas (ver RobotAvatar.jsx).
+const POSES_RESPUESTA = ['0% 0%', '100% 0%', '0% 50%'];
+const poseAleatoria = () => POSES_RESPUESTA[Math.floor(Math.random() * POSES_RESPUESTA.length)];
+
 /**
  * Vista "Consultar por módulo": biblioteca manual. Grilla de módulos y, al entrar
  * a uno, sus preguntas como chips (con buscador). Es el índice de referencia
@@ -81,7 +85,15 @@ export default function ManualModulos() {
     setMensajes((prev) => [
       ...prev,
       { id: nuevoId(), autor: 'user', texto: preg.p, tipear: false },
-      { id: nuevoId(), autor: 'bot', texto: preg.r, tipear: true, fuente: preg.fuente, primaryQuestion: preg.p },
+      {
+        id: nuevoId(),
+        autor: 'bot',
+        texto: preg.r,
+        tipear: true,
+        fuente: preg.fuente,
+        primaryQuestion: preg.p,
+        avatarPose: poseAleatoria(),
+      },
     ]);
   }
 
@@ -129,6 +141,7 @@ export default function ManualModulos() {
             tipear={m.tipear}
             fuente={m.fuente}
             primaryQuestion={m.primaryQuestion}
+            avatarPose={m.avatarPose}
             onListo={() => {
               setEscribiendo(false);
               irAlFinal();
