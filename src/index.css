@@ -22,6 +22,10 @@ body {
   color: #fefeff;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Red de seguridad: si algún contenedor flex anidado deja pasar un ancho
+     mínimo intrínseco (texto largo sin wrap), esto evita que la página
+     entera se corra hacia la derecha en vez de recortar prolijo. */
+  overflow-x: hidden;
 }
 
 /* Scrollbar sutil, en tono lavanda de marca */

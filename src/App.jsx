@@ -6,6 +6,7 @@ import GuiaUso from './components/GuiaUso';
 import FondoDiplo from './components/FondoDiplo';
 import RobotAvatar from './components/RobotAvatar';
 import PwaPrompt from './components/PwaPrompt';
+import UpdateToast from './components/UpdateToast';
 
 export default function App() {
   const [tab, setTab] = useState('chat'); // 'chat' | 'modulos' | 'guia'
@@ -25,8 +26,9 @@ export default function App() {
   };
 
   return (
-    <div className="relative flex min-h-full flex-col bg-diplo-azul text-white">
+    <div className="relative flex min-h-full min-w-0 flex-col bg-diplo-azul text-white">
       <PwaPrompt />
+      <UpdateToast />
       <FondoDiplo />
 
       {/* Header + navegación de pestañas */}
@@ -42,7 +44,11 @@ export default function App() {
                 Sistema de <span className="text-diplo-celeste font-semibold">preguntas y respuestas</span> de la diplomatura
               </p>
             </div>
-            <div className="flex flex-col items-end gap-1 flex-none">
+            {/* Decorativo: se oculta en pantallas chicas para que sus logos
+                (ancho fijo, no se achican) no empujen todo el header y
+                terminen desbordando la página en un celular. El nombre ya
+                está a la izquierda, así que no se pierde información. */}
+            <div className="hidden flex-none flex-col items-end gap-1 sm:flex">
               <div className="flex items-center gap-2">
                 <img src="/one-logoletra.webp" alt="ONE" className="h-5 w-auto object-contain opacity-90 brightness-0 invert" />
                 <span className="text-gray-400 text-xs italic font-medium">by</span>
@@ -77,7 +83,7 @@ export default function App() {
 
       {/* Contenido de la pestaña activa.
           key fuerza el remonte al cambiar de pestaña, para arrancar limpio. */}
-      <div className="relative z-10 flex-1 flex flex-col">
+      <div className="relative z-10 flex min-w-0 flex-1 flex-col">
         {tab === 'chat' && <ChatLibre key="chat" />}
         {tab === 'modulos' && <ManualModulos key="modulos" />}
         {tab === 'guia' && (

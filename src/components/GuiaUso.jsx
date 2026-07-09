@@ -1,9 +1,6 @@
 import { InformationCircleIcon, CheckCircleIcon, XCircleIcon, HandThumbUpIcon, TrashIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
-
-// Versión de la plataforma: subila a mano en cada commit que suma contenido
-// o cambia el comportamiento del asistente (ver package.json para el mismo número).
-const APP_VERSION = '1.0.0';
+import { APP_VERSION } from '../version';
 
 export default function GuiaUso({ hasReadGuide, onMarkAsRead }) {
   const [cleared, setCleared] = useState(false);

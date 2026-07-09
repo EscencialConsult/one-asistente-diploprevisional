@@ -86,6 +86,7 @@ const fuse = new Fuse(trainingData, fuseOptions);
 // Umbrales de confianza (score: 0 = match perfecto, 1 = nada que ver).
 const UMBRAL_EXACTO = 0.15;
 const UMBRAL_MEDIO = 0.35; // afinado con pruebas reales: >0.35 cae a fallback
+const MARGEN_AMBIGUEDAD = 0.05;
 
 // Palabras vacías: no aportan significado, no deben decidir un match.
 const STOP = new Set([
@@ -99,9 +100,12 @@ const STOP = new Set([
 
 // Tokens "de contenido" de una consulta (largos y con significado).
 function tokensContenido(q) {
-  // Lista blanca de acrónimos clave que NO deben descartarse aunque sean cortos
-  const whitelist = new Set(['pbu', 'pc', 'pap', 'rti', 'cud', 'ley', 'auh']);
-  
+  // Lista blanca de acrónimos clave que NO deben descartarse aunque sean cortos.
+  const whitelist = new Set([
+    'pbu', 'pc', 'pap', 'rti', 'cud', 'ley', 'auh',
+    'ips', 'rdi', 'pnc', 'srt', 'dni', 'iva',
+  ]);
+
   return normalizar(q)
     .split(/[^a-z0-9]+/)
     .filter((t) => (t.length >= 4 || whitelist.has(t)) && !STOP.has(t));
@@ -149,12 +153,16 @@ function tokensFaltantesEnPregunta(query, item) {
   return toks.filter((t) => !esFuzzyMatch(t, henoTokens)).length;
 }
 
-self.addEventListener('message', (event) => {
-  const { query, timestamp } = event.data;
-
+/**
+ * Resuelve una consulta contra el banco de preguntas.
+ * Función pura (sin postMessage) para que la puedan usar tanto el handler
+ * del Worker como el script de tests de regresión (src/workers/__tests__).
+ * @param {string} query
+ * @returns {{action: 'GREETING'|'EXACT_MATCH'|'SUGGESTIONS'|'NO_MATCH', payload?: any}}
+ */
+export function resolverConsulta(query) {
   if (!query || !query.trim()) {
-    self.postMessage({ timestamp, action: 'NO_MATCH', payload: null });
-    return;
+    return { action: 'NO_MATCH', payload: null };
   }
 
   const queryLimpia = limpiarConversacion(query);
@@ -167,15 +175,13 @@ self.addEventListener('message', (event) => {
     'que tal', 'como estas', 'todo bien'
   ];
   if (saludosPuros.includes(rawNormalized)) {
-    self.postMessage({ action: 'GREETING' });
-    return;
+    return { action: 'GREETING' };
   }
 
   // 2. Si limpiamos la conversación y quedó vacía, pero no era un saludo puro,
   // probablemente era una muletilla sola (ej: "quiero saber"). Falla.
   if (!queryLimpia) {
-    self.postMessage({ action: 'NO_MATCH' });
-    return;
+    return { action: 'NO_MATCH' };
   }
 
   // Atajo de igualdad exacta: si la consulta (normalizada) coincide letra por
@@ -194,20 +200,24 @@ self.addEventListener('message', (event) => {
       );
     });
     if (matchExacto) {
-      self.postMessage({ action: 'EXACT_MATCH', payload: { ...matchExacto, score: 0 } });
-      return;
+      return { action: 'EXACT_MATCH', payload: { ...matchExacto, score: 0 } };
     }
+  }
+
+  // Guardián contra falsos positivos "vacíos": si después de sacar muletillas
+  // no queda NINGÚN token de contenido real (solo números, stopwords o
+  // palabras sueltas de 1-3 letras no listadas), no dejamos que Fuse decida
+  // solo. Sin este freno, algo como "cuanto es 2 mas 2" podía dar un score
+  // bajo por pura coincidencia de palabras cortas ("cuanto", "es") con una
+  // pregunta real del banco y devolver una respuesta con total confianza.
+  if (tokensContenido(query).length === 0) {
+    return { action: 'NO_MATCH' };
   }
 
   const results = fuse.search(queryLimpia);
 
-  const UMBRAL_EXACTO = 0.15;
-  const UMBRAL_MEDIO = 0.35;
-  const MARGEN_AMBIGUEDAD = 0.05;
-
   if (results.length === 0) {
-    self.postMessage({ action: 'NO_MATCH' });
-    return;
+    return { action: 'NO_MATCH' };
   }
 
   // Recalcular el score para los mejores 5 resultados sumando la penalidad
@@ -239,20 +249,19 @@ self.addEventListener('message', (event) => {
       (second.score - best.score) < MARGEN_AMBIGUEDAD;
     if (empatados) {
       // Los dos primeros resultados son estadísticamente idénticos. Es ambiguo.
-      self.postMessage({
+      return {
         action: 'SUGGESTIONS',
         payload: topResults.slice(0, 3).map((r, i) => ({
           id: `ambig-${i}`,
           primaryQuestion: r.item.primaryQuestion
         })),
-      });
-      return;
+      };
     }
 
-    self.postMessage({
+    return {
       action: 'EXACT_MATCH',
       payload: { ...best.item, score: best.score },
-    });
+    };
   } else if (best.score <= UMBRAL_MEDIO) {
     // Mostrar hasta 3 sugerencias si el score es aceptable pero no exacto
     const options = topResults
@@ -261,12 +270,19 @@ self.addEventListener('message', (event) => {
         id: `sugg-${i}`,
         primaryQuestion: r.item.primaryQuestion
       }));
-    self.postMessage({
-      action: 'SUGGESTIONS',
-      payload: options,
-    });
-  } else {
-    // Muy mal score, no hay match
-    self.postMessage({ action: 'NO_MATCH' });
+    return { action: 'SUGGESTIONS', payload: options };
   }
-});
+
+  // Muy mal score, no hay match
+  return { action: 'NO_MATCH' };
+}
+
+// El listener del Worker solo existe en contexto de Worker real (no cuando
+// este archivo se importa desde Node para correr los tests de regresión).
+if (typeof self !== 'undefined' && typeof self.addEventListener === 'function' && typeof WorkerGlobalScope !== 'undefined') {
+  self.addEventListener('message', (event) => {
+    const { query, timestamp } = event.data;
+    const resultado = resolverConsulta(query);
+    self.postMessage({ timestamp, ...resultado });
+  });
+}

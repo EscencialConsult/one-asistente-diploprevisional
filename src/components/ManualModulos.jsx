@@ -1,12 +1,8 @@
-import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import { useMemo, useState } from 'react';
 import { ArrowLeftIcon, SparklesIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { modulos } from '../data/modulos';
 import ModuloCard from './ModuloCard';
 import ChipsPreguntas from './ChipsPreguntas';
-import Mensaje from './Mensaje';
-
-let idSeq = 0;
-const nuevoId = () => `man-${++idSeq}`;
 
 const normalizar = (s) =>
   s
@@ -14,29 +10,20 @@ const normalizar = (s) =>
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '');
 
-// Pool de poses del sprite del bot para respuestas exitosas (ver RobotAvatar.jsx).
-const POSES_RESPUESTA = ['0% 0%', '100% 0%', '0% 50%'];
-const poseAleatoria = () => POSES_RESPUESTA[Math.floor(Math.random() * POSES_RESPUESTA.length)];
-
 /**
- * Vista "Consultar por módulo": biblioteca manual. Grilla de módulos y, al entrar
- * a uno, sus preguntas como chips (con buscador). Es el índice de referencia
- * rápida, complementario al chat libre.
+ * Vista "Consultar por módulo": biblioteca manual. Grilla de módulos y, al
+ * entrar a uno, sus preguntas como acordeón FAQ (con buscador fijo arriba).
+ * Es el índice de referencia rápida, complementario al chat libre.
+ *
+ * No simula un hilo de chat a propósito: con módulos de hasta 30+ preguntas,
+ * clickear y ver la respuesta desplegarse en el lugar es más cómodo (sobre
+ * todo en pantallas chicas) que ir agregando burbujas a una lista que crece
+ * sin límite dentro de un cajón de altura fija.
  */
 export default function ManualModulos() {
   const [modulo, setModulo] = useState(null);
-  const [mensajes, setMensajes] = useState([]);
-  const [escribiendo, setEscribiendo] = useState(false);
   const [filtro, setFiltro] = useState('');
-  const finRef = useRef(null);
-
-  const irAlFinal = useCallback(() => {
-    finRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
-  }, []);
-
-  useEffect(() => {
-    irAlFinal();
-  }, [mensajes, irAlFinal]);
+  const [abiertaId, setAbiertaId] = useState(null);
 
   const preguntasFiltradas = useMemo(() => {
     if (!modulo) return [];
@@ -50,51 +37,13 @@ export default function ManualModulos() {
   function abrirModulo(m) {
     setModulo(m);
     setFiltro('');
-    setEscribiendo(false);
-    if (m.estado === 'proximamente') {
-      setMensajes([
-        {
-          id: nuevoId(),
-          autor: 'bot',
-          texto: `El contenido de "${m.titulo}" se está cargando a partir de las clases. Muy pronto vas a poder consultar este módulo. Mientras tanto, ya está disponible el Módulo I.`,
-          tipear: false,
-        },
-      ]);
-      return;
-    }
-    setMensajes([
-      {
-        id: nuevoId(),
-        autor: 'bot',
-        texto: `Estas son las preguntas de "${m.titulo}". Elegí una, o buscá por palabra clave.`,
-        tipear: false,
-      },
-    ]);
+    setAbiertaId(null);
   }
 
   function volver() {
     setModulo(null);
-    setMensajes([]);
     setFiltro('');
-    setEscribiendo(false);
-  }
-
-  function elegirPregunta(preg) {
-    if (escribiendo) return;
-    setEscribiendo(true);
-    setMensajes((prev) => [
-      ...prev,
-      { id: nuevoId(), autor: 'user', texto: preg.p, tipear: false },
-      {
-        id: nuevoId(),
-        autor: 'bot',
-        texto: preg.r,
-        tipear: true,
-        fuente: preg.fuente,
-        primaryQuestion: preg.p,
-        avatarPose: poseAleatoria(),
-      },
-    ]);
+    setAbiertaId(null);
   }
 
   const esProximamente = modulo && modulo.estado === 'proximamente';
@@ -117,75 +66,69 @@ export default function ManualModulos() {
 
   // Vista de un módulo
   return (
-    <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4">
-      <div className="flex items-center gap-2 border-b border-white border-opacity-10 py-3">
-        <button
-          type="button"
-          onClick={volver}
-          className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-white transition hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-diplo-celeste"
-          aria-label="Volver a los módulos"
-        >
-          <ArrowLeftIcon className="h-5 w-5" />
-        </button>
-        <p className="min-w-0 flex-1 truncate text-sm font-semibold text-white drop-shadow-sm">
-          {modulo.titulo}
-        </p>
-      </div>
+    <main className="mx-auto flex w-full min-w-0 max-w-3xl flex-1 flex-col px-4">
+      <div className="sticky top-0 z-10 bg-diplo-azul bg-opacity-95 backdrop-blur-md pb-3 pt-3">
+        <div className="mb-3 flex items-center gap-2">
+          <button
+            type="button"
+            onClick={volver}
+            className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-white transition hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-diplo-celeste"
+            aria-label="Volver a los módulos"
+          >
+            <ArrowLeftIcon className="h-5 w-5" />
+          </button>
+          <p className="min-w-0 flex-1 truncate text-sm font-semibold text-white drop-shadow-sm">
+            {modulo.titulo}
+          </p>
+        </div>
 
-      <div className="one-scroll flex-1 space-y-5 overflow-y-auto py-6">
-        {mensajes.map((m) => (
-          <Mensaje
-            key={m.id}
-            autor={m.autor}
-            texto={m.texto}
-            tipear={m.tipear}
-            fuente={m.fuente}
-            primaryQuestion={m.primaryQuestion}
-            avatarPose={m.avatarPose}
-            onListo={() => {
-              setEscribiendo(false);
-              irAlFinal();
-            }}
-          />
-        ))}
-        <div ref={finRef} />
-      </div>
-
-      {!esProximamente && (
-        <div className="sticky bottom-0 border-t border-white border-opacity-10 bg-diplo-azul bg-opacity-80 backdrop-blur-md py-4">
-          <div className="relative mb-3">
+        {!esProximamente && (
+          <div className="relative">
             <MagnifyingGlassIcon className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
             <input
               type="text"
               value={filtro}
-              onChange={(e) => setFiltro(e.target.value)}
+              onChange={(e) => {
+                setFiltro(e.target.value);
+                setAbiertaId(null);
+              }}
               placeholder="Buscar en este módulo (ej: pensión, moratoria, invalidez)…"
-              className="w-full rounded-full border border-white border-opacity-20 bg-white bg-opacity-5 py-2 pl-9 pr-4 text-sm text-white placeholder-gray-400 focus:border-diplo-celeste focus:outline-none focus:ring-2 focus:ring-diplo-celeste focus:ring-opacity-30"
+              className="w-full rounded-full border border-white border-opacity-20 bg-white bg-opacity-5 py-2.5 pl-9 pr-4 text-sm text-white placeholder-gray-400 focus:border-diplo-celeste focus:outline-none focus:ring-2 focus:ring-diplo-celeste focus:ring-opacity-30"
             />
           </div>
+        )}
+      </div>
 
-          <div className="mb-2 flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide text-gray-300">
-            <SparklesIcon className="h-4 w-4 text-diplo-celeste" />
-            {filtro.trim()
-              ? `${preguntasFiltradas.length} ${preguntasFiltradas.length === 1 ? 'resultado' : 'resultados'}`
-              : 'Preguntas del módulo'}
-          </div>
+      <div className="one-scroll min-w-0 flex-1 overflow-y-auto pb-8">
+        {esProximamente ? (
+          <p className="mt-6 rounded-2xl border border-white border-opacity-10 glass-panel p-4 text-sm text-gray-300">
+            El contenido de "{modulo.titulo}" se está cargando a partir de las clases. Muy
+            pronto vas a poder consultar este módulo. Mientras tanto, ya están disponibles los
+            demás módulos activos.
+          </p>
+        ) : (
+          <>
+            <div className="mb-2 flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide text-gray-300">
+              <SparklesIcon className="h-4 w-4 text-diplo-celeste" />
+              {filtro.trim()
+                ? `${preguntasFiltradas.length} ${preguntasFiltradas.length === 1 ? 'resultado' : 'resultados'}`
+                : `${preguntasFiltradas.length} preguntas`}
+            </div>
 
-          {preguntasFiltradas.length > 0 ? (
-            <div className="one-scroll max-h-52 overflow-y-auto">
+            {preguntasFiltradas.length > 0 ? (
               <ChipsPreguntas
                 preguntas={preguntasFiltradas}
-                onElegir={elegirPregunta}
-                deshabilitado={escribiendo}
+                abiertaId={abiertaId}
+                onToggle={setAbiertaId}
               />
-            </div>
-          ) : (
-            <p className="py-2 text-sm text-gray-400">
-              No encontré preguntas con esa palabra. Probá con otro término.
-            </p>
-          )}
-        </div>
-      )}
+            ) : (
+              <p className="py-2 text-sm text-gray-400">
+                No encontré preguntas con esa palabra. Probá con otro término.
+              </p>
+            )}
+          </>
+        )}
+      </div>
     </main>
   );
 }
