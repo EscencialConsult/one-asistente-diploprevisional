@@ -18,11 +18,28 @@ function normalizar(str) {
     .replace(/[\u0300-\u036f]/g, ''); // Fix the unicode regex for tildes
 }
 
+// Jerga de chat/celular: abreviaturas que un alumno tipea apurado. Se
+// expanden ANTES del resto, para que las frases de cortesía y sinónimos de
+// abajo las reconozcan igual que a la palabra completa.
+const JERGA_CHAT = {
+  'q': 'que', 'qe': 'que', 'xq': 'porque', 'pq': 'porque', 'porq': 'porque',
+  'tmb': 'tambien', 'tmbn': 'tambien', 'tb': 'tambien',
+  'dnd': 'donde', 'x': 'por', 'xa': 'para', 'pa': 'para',
+  'bb': 'bebe', 'wpp': 'whatsapp', 'grx': 'gracias', 'grax': 'gracias',
+  'nose': 'no se', 'sabs': 'sabes',
+};
+
 // Limpia saludos y frases de cortesía que ensucian la búsqueda de Fuse
 // y aplica normalización semántica (sinónimos básicos).
 function limpiarConversacion(str) {
   let limpia = normalizar(str);
-  
+
+  // 0. Expandir jerga de chat (abreviaturas típicas de celular)
+  Object.keys(JERGA_CHAT).forEach((key) => {
+    const regex = new RegExp(`\\b${key}\\b`, 'g');
+    limpia = limpia.replace(regex, JERGA_CHAT[key]);
+  });
+
   // 1. Filtrar frases de cortesía
   const frases = [
     'hola', 'buenas', 'buen dia', 'buenos dias', 'buenas tardes', 'buenas noches',
@@ -37,26 +54,56 @@ function limpiarConversacion(str) {
     limpia = limpia.replace(regex, ' ');
   });
 
-  // 2. Diccionario de sinónimos (semántica)
+  // 2. Diccionario de sinónimos (semántica). Cubre coloquialismos rioplatenses
+  // y formas alternativas de nombrar lo mismo que las clases usan en formal.
   const sinonimos = {
     'plata': 'haber',
     'dinero': 'haber',
     'sueldo': 'haber',
+    'guita': 'haber',
+    'cobro': 'haber',
+    'monto': 'haber',
     'anciano': 'adulto mayor',
     'viejo': 'adulto mayor',
+    'vieja': 'adulto mayor',
     'abuelo': 'adulto mayor',
+    'abuela': 'adulto mayor',
     'chico': 'hijo',
+    'chica': 'hija',
     'nene': 'hijo',
+    'nena': 'hija',
+    'pibe': 'hijo',
+    'piba': 'hija',
     'ninos': 'hijos',
     'minusvalia': 'discapacidad',
-    'enfermedad': 'invalidez'
+    'enfermedad': 'invalidez',
+    'papel': 'documentacion',
+    'papeles': 'documentacion',
+    'tramite': 'proceso',
+    'gestion': 'proceso',
+    'formulario': 'documentacion',
+    'muerte': 'fallecimiento',
+    'murio': 'fallecio',
+    'fallecio': 'fallecimiento',
+    'esposo': 'conyuge',
+    'esposa': 'conyuge',
+    'marido': 'conyuge',
+    'mujer': 'conyuge',
+    'pareja': 'conyuge',
+    'concubino': 'conviviente',
+    'concubina': 'conviviente',
+    'patron': 'empleador',
+    'jefe': 'empleador',
+    'trabajo': 'empleo',
+    'laburo': 'empleo',
+    'laburar': 'trabajar',
   };
-  
+
   Object.keys(sinonimos).forEach(key => {
     const regex = new RegExp(`\\b${key}\\b`, 'g');
     limpia = limpia.replace(regex, sinonimos[key]);
   });
-  
+
   return limpia.replace(/\s+/g, ' ').trim();
 }
 
@@ -128,13 +175,76 @@ function levenshtein(a, b) {
   return d[m][n];
 }
 
+// Comparte raíz: "jubilarse" y "jubilacion" no son cercanas en Levenshtein
+// (la cola cambia mucho: "-rse" vs "-cion"), pero comparten el mismo lexema.
+// Alcanza con exigir un prefijo común largo relativo a la palabra más corta,
+// así el chat "entiende" familias de palabras (jubilar/jubilado/jubilación,
+// aportar/aportante/aportes) sin necesitar un diccionario de sinónimos enorme.
+function comparteRaiz(a, b) {
+  const min = Math.min(a.length, b.length);
+  if (min < 6) return false; // palabras cortas: muy riesgoso, mejor no forzar
+  let comunes = 0;
+  while (comunes < min && a[comunes] === b[comunes]) comunes++;
+  return comunes >= 5 && comunes / min >= 0.6;
+}
+
 function esFuzzyMatch(token, henoTokens) {
   // Tolerancia dinámica: 1 error por cada 4 letras de largo de la palabra
   const tolerancia = Math.max(1, Math.floor(token.length / 4));
   // Si coincide exacto de forma rápida o por substring, ahorramos cálculo pesado
   if (henoTokens.some(ht => ht.includes(token))) return true;
+  // Misma familia de palabra (raíz compartida)
+  if (henoTokens.some(ht => comparteRaiz(token, ht))) return true;
   // Si no, evaluamos Levenshtein
   return henoTokens.some(ht => levenshtein(token, ht) <= tolerancia);
+}
+
+// Regímenes/instituciones que conviven en el banco y que un alumno suele
+// nombrar explícitamente para acotar su pregunta (ANSES vs. IPS, agrario,
+// docente, etc.). Si la consulta nombra uno y el item pertenece a otro
+// distinto, es una pista fuerte de que NO es el resultado correcto, aunque
+// el resto del texto sea parecido (ej: "requisitos" + "jubilación" es común
+// a casi todas las preguntas de requisitos de cualquier régimen).
+const REGIMEN_MARKERS = [
+  'ips', 'agrario', 'agrarios', 'docente', 'docentes', 'discapacidad',
+  'minusvalia', 'construccion', 'mineria', 'minero', 'petroleo',
+  'domestico', 'domestica', 'rural', 'transporte',
+];
+const REGIMEN_PHRASES = ['luz y fuerza', 'casas particulares', 'servicio domestico'];
+
+function regimenesDe(texto) {
+  const norm = normalizar(texto);
+  const found = new Set();
+  REGIMEN_MARKERS.forEach((m) => {
+    if (new RegExp(`\\b${m}\\b`).test(norm)) found.add(m);
+  });
+  REGIMEN_PHRASES.forEach((p) => {
+    if (norm.includes(p)) found.add(p);
+  });
+  return found;
+}
+
+// Penaliza un item si pertenece a un régimen distinto al que pidió la consulta.
+// Cubre dos casos:
+// 1) La consulta nombra un régimen específico (ej: "ips") y el item es de OTRO
+//    régimen específico distinto (ej: "agrario").
+// 2) La consulta nombra "anses" (o no nombra ningún régimen específico) y el
+//    item SÍ es de un régimen específico: probablemente el alumno quiere la
+//    respuesta general, no la de un régimen particular.
+function penalidadDeRegimen(query, item) {
+  const queryRegimenes = regimenesDe(query);
+  const itemRegimenes = regimenesDe(
+    `${item.primaryQuestion} ${(item.variations || []).join(' ')}`
+  );
+  if (itemRegimenes.size === 0) return 0; // el item es "general", nunca choca
+
+  if (queryRegimenes.size > 0) {
+    const hayInterseccion = [...queryRegimenes].some((r) => itemRegimenes.has(r));
+    return hayInterseccion ? 0 : 0.45;
+  }
+
+  const queryMencionaAnses = /\banses\b/.test(normalizar(query));
+  return queryMencionaAnses ? 0.45 : 0;
 }
 
 // Calcula cuántos tokens de contenido de la consulta NO están en la pregunta
@@ -224,9 +334,10 @@ export function resolverConsulta(query) {
   const topResults = results.slice(0, 5).map((res) => {
     const faltantes = tokensFaltantesEnPregunta(query, res.item);
     // Bajamos la penalidad a 0.15 porque ahora Levenshtein es más permisivo
+    const penalRegimen = penalidadDeRegimen(query, res.item);
     return {
       ...res,
-      score: res.score + (faltantes * 0.15)
+      score: res.score + (faltantes * 0.15) + penalRegimen
     };
   });
 

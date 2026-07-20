@@ -8,4 +8,4 @@
  *    (compara este valor contra el que quedó guardado en localStorage la
  *    última vez) y mostrar un aviso sutil una sola vez.
  */
-export const APP_VERSION = '1.1.1';
+export const APP_VERSION = '1.1.3';

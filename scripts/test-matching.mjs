@@ -39,6 +39,17 @@ const casos = [
   // --- Saludos puros ---
   { q: 'hola', esperado: 'GREETING' },
   { q: 'buenas tardes', esperado: 'GREETING' },
+
+  // --- Reportados por profesores: no debe confundir ANSES con regímenes
+  // especiales (IPS, agrario, discapacidad) solo por compartir "requisitos"
+  // y "jubilación ordinaria" ---
+  { q: 'requisitos jubilacion ordinaria Anses', esperado: /EXACT_MATCH|SUGGESTIONS/ },
+  {
+    q: 'Cuales son los requisitos para acceder a la jubilacion ordinaria en ANSES?',
+    esperado: /EXACT_MATCH|SUGGESTIONS/,
+  },
+  // Si nombra IPS explícitamente, debe seguir yendo a IPS (no a ANSES)
+  { q: 'requisitos jubilacion ordinaria IPS', esperado: /EXACT_MATCH|SUGGESTIONS/ },
 ];
 
 let fallos = 0;
