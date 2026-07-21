@@ -7,7 +7,7 @@ import TypingDots from './TypingDots';
 import RobotAvatar from './RobotAvatar';
 
 export default function ChatLibre() {
-  const { messages, isBotTyping, sendMessage } = useChatEngine();
+  const { messages, isBotTyping, sendMessage, sugerirPregunta } = useChatEngine();
   const [input, setInput] = useState('');
   const [heroState, setHeroState] = useState('greeting');
   const finRef = useRef(null);
@@ -58,6 +58,9 @@ export default function ChatLibre() {
               avatarPose={m.avatarPose}
               options={m.options}
               onElegirOpcion={sendMessage}
+              consultaOriginal={m.consultaOriginal}
+              sugerida={m.sugerida}
+              onSugerirPregunta={() => sugerirPregunta(m.id)}
               onListo={() =>
                 finRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' })
               }

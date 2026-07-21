@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { logPreguntaSinRespuesta, sugerirPreguntaManual } from '../utils/logPreguntaSinRespuesta';
 
 let seq = 0;
 const nuevoId = () => `chat-${++seq}`;
@@ -33,6 +34,9 @@ export function useChatEngine() {
   
   const [isBotTyping, setIsBotTyping] = useState(false);
   const workerRef = useRef(null);
+  // Mapa timestamp -> texto de la consulta, solo para poder loggear la
+  // pregunta original cuando llega la respuesta del worker (que no la trae).
+  const consultasPendientesRef = useRef(new Map());
 
   // Guardar en localStorage cada vez que hay mensajes nuevos
   useEffect(() => {
@@ -46,17 +50,23 @@ export function useChatEngine() {
     });
 
     workerRef.current.onmessage = (event) => {
-      const { action, payload } = event.data;
-      
+      const { action, payload, timestamp } = event.data;
+
+      const consultaOriginal = consultasPendientesRef.current.get(timestamp);
+      consultasPendientesRef.current.delete(timestamp);
+      if (action === 'NO_MATCH' || action === 'SUGGESTIONS') {
+        logPreguntaSinRespuesta(consultaOriginal, action);
+      }
+
       if (action === 'SUGGESTIONS') {
         // Las opciones de desambiguación aparecen al instante
         setIsBotTyping(false);
-        procesarRespuesta(action, payload);
+        procesarRespuesta(action, payload, consultaOriginal);
       } else {
         // Añadimos la demora de 1.5s pedida para que se luzca la animación de "pensando" del robot
         setTimeout(() => {
           setIsBotTyping(false);
-          procesarRespuesta(action, payload);
+          procesarRespuesta(action, payload, consultaOriginal);
         }, 1500);
       }
     };
@@ -69,7 +79,7 @@ export function useChatEngine() {
     return poses[Math.floor(Math.random() * poses.length)];
   };
 
-  function procesarRespuesta(action, payload) {
+  function procesarRespuesta(action, payload, consultaOriginal) {
     if (action === 'EXACT_MATCH') {
       setMessages((prev) => [
         ...prev,
@@ -111,7 +121,16 @@ export function useChatEngine() {
     } else {
       setMessages((prev) => [
         ...prev,
-        { id: nuevoId(), autor: 'bot', texto: FALLBACK, tipear: true, type: 'text', avatarPose: '100% 100%' }, // ERROR/FALLBACK
+        {
+          id: nuevoId(),
+          autor: 'bot',
+          texto: FALLBACK,
+          tipear: true,
+          type: 'text',
+          avatarPose: '100% 100%', // ERROR/FALLBACK
+          consultaOriginal,
+          sugerida: false,
+        },
       ]);
     }
   }
@@ -135,7 +154,9 @@ export function useChatEngine() {
       { id: nuevoId(), autor: 'user', texto: text.trim(), tipear: false, type: 'text' },
     ]);
     setIsBotTyping(true);
-    workerRef.current?.postMessage({ query: text.trim(), timestamp: Date.now() });
+    const timestamp = Date.now();
+    consultasPendientesRef.current.set(timestamp, text.trim());
+    workerRef.current?.postMessage({ query: text.trim(), timestamp });
   }, []);
 
   const clearHistory = useCallback(() => {
@@ -143,5 +164,18 @@ export function useChatEngine() {
     localStorage.removeItem('diplo_chat_history');
   }, []);
 
-  return { messages, isBotTyping, sendMessage, clearHistory };
+  // El alumno tocó "Sugerir esta pregunta para una futura versión" en un
+  // mensaje puntual (identificado por su id). Se marca como ya sugerida
+  // para no permitir doble envío del mismo mensaje.
+  const sugerirPregunta = useCallback((messageId) => {
+    setMessages((prev) =>
+      prev.map((m) => {
+        if (m.id !== messageId || m.sugerida) return m;
+        sugerirPreguntaManual(m.consultaOriginal);
+        return { ...m, sugerida: true };
+      })
+    );
+  }, []);
+
+  return { messages, isBotTyping, sendMessage, clearHistory, sugerirPregunta };
 }

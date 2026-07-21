@@ -51,6 +51,9 @@ export default function Mensaje({
   avatarPose,
   onElegirOpcion,
   onListo,
+  consultaOriginal,
+  sugerida,
+  onSugerirPregunta,
 }) {
   const esBot = autor === 'bot';
   const { mostrado, terminado } = useTyping(texto, esBot && tipear);
@@ -93,8 +96,27 @@ export default function Mensaje({
               ))}
             </div>
           )}
+
+          {/* Botón para que el alumno sugiera esta pregunta para una futura versión del banco */}
+          {consultaOriginal && (!tipear || terminado) && (
+            <div className="mt-3 border-t border-white border-opacity-10 pt-2">
+              {sugerida ? (
+                <p className="text-sm text-diplo-celeste">
+                  ¡Gracias! Guardamos tu pregunta para tenerla en cuenta en una futura actualización.
+                </p>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => onSugerirPregunta && onSugerirPregunta()}
+                  className="text-sm font-medium text-diplo-celeste underline decoration-dotted underline-offset-2 transition hover:text-white focus:outline-none"
+                >
+                  Sugerir esta pregunta para una futura versión
+                </button>
+              )}
+            </div>
+          )}
         </div>
-        <RobotAvatar 
+        <RobotAvatar
           estado={tipear && !terminado ? 'loading' : 'idle'}
           coord={tipear && !terminado ? undefined : avatarPose}
           className="one-avatar-bubble flex-none" 
